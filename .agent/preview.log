@@ -1,0 +1,18 @@
+
+> skl-contabil@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.4
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.9s (1287 modules)
+ GET / 200 in 5255ms
+ ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 3.5s (1272 modules)
+ GET /referencias/inst07.jpg 404 in 3669ms
+ ⨯ The requested resource isn't a valid image for /referencias/inst07.jpg received text/html; charset=utf-8
+Deseja finalizar o arquivo em lotes (S/N)? [?25h
