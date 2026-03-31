@@ -47,7 +47,7 @@ export function Clients() {
     // Slow down the request animation frame slightly
     let lastTime = 0;
     const smoothPlay = (time: number) => {
-      if (time - lastTime > 30) { 
+      if (time - lastTime > 2500) { 
         emblaApi.scrollNext();
         lastTime = time;
       }

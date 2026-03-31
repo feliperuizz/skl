@@ -38,7 +38,7 @@ export function Navbar() {
             </a>
           </div>
           <div className="flex items-center gap-4 text-xs font-semibold uppercase tracking-wider opacity-80">
-            Atendimento 24h para clientes
+            Atendimento Especializado
           </div>
         </div>
       </div>

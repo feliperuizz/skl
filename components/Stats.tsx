@@ -30,7 +30,7 @@ export function Stats() {
             { number: "15+", label: "Anos de experiência", sub: "entregando resultados contábeis" },
             { number: "300+", label: "Empresas ativas", sub: "carteira sólida e fidelizada" },
             { number: "100%", label: "Digital & Seguro", sub: "tecnologia e precisão máxima" },
-            { number: "24h", label: "Suporte Especializado", sub: "resposta rápida e resolutiva" },
+            { number: "Ágil", label: "Suporte Especializado", sub: "resposta rápida e resolutiva" },
           ].map((stat, i) => (
             <motion.div
               key={i}
