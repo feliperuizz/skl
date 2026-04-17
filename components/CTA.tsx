@@ -30,7 +30,7 @@ export function CTA() {
           >
             <Button
               size="lg"
-              className="bg-white text-primary hover:bg-slate-100 rounded-full h-16 px-10 text-lg font-bold shadow-xl shadow-black/20"
+              className="bg-white text-primary hover:bg-slate-100 rounded-md h-16 px-10 text-lg font-bold shadow-xl shadow-black/20"
             >
               Falar com um Consultor
               <ArrowRight className="w-5 h-5 ml-3" />

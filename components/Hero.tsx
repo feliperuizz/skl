@@ -69,7 +69,7 @@ export function Hero() {
             >
               <Button
                 size="lg"
-                className="rounded-full w-full sm:w-auto h-14 px-8 text-base shadow-lg shadow-primary/30"
+                className="rounded-md w-full sm:w-auto h-14 px-8 text-base shadow-lg shadow-primary/30"
               >
                 Fale com a SKL
               </Button>
