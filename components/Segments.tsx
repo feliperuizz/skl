@@ -19,17 +19,17 @@ const staggerContainer = {
 const segments = [
   {
     title: "Comércio",
-    bg: "https://images.unsplash.com/photo-1555529771-835f59fc5efe?ixlib=rb-4.0.3&auto=format&fit=crop&w=1024&q=80",
+    bg: "./commerce.png",
     buttonText: "Conheça mais"
   },
   {
     title: "Prestadores de serviços",
-    bg: "https://images.unsplash.com/photo-1556761175-5973dc0f32d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1024&q=80",
+    bg: "./services.png",
     buttonText: "Conheça mais"
   },
   {
     title: "Indústria",
-    bg: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=1024&q=80",
+    bg: "./industry.png",
     buttonText: "Conheça mais"
   },
 ];
@@ -53,7 +53,7 @@ export function Segments() {
         >
           {/* Top Logo Mark */}
           <div className="flex justify-center mb-6">
-             <img src="./logoSKL.png" alt="SKL" className="h-10 sm:h-12 w-auto object-contain" />
+             <img src="./logo_standard.png" alt="SKL" className="h-10 sm:h-12 w-auto object-contain" />
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Oferecemos <span className="font-extrabold text-slate-800">soluções personalizadas</span>

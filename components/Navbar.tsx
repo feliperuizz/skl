@@ -78,7 +78,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-14 lg:h-16">
           <a href="#" className="flex-shrink-0 mr-4">
             <img
-              src="./logoSKL.png"
+              src="./logo_standard.png"
               alt="SKL Contabilidade"
               className="h-10 lg:h-14 w-auto object-contain"
             />
@@ -120,7 +120,7 @@ export function Navbar() {
             {/* Area Restrita Dropdown Button */}
             <div className="relative group">
               <Button className="rounded-md shadow-md hover:shadow-lg transition-all h-12 px-6 font-bold border border-primary text-base flex items-center gap-2">
-                <Lock className="w-4 h-4" />
+                <Lock className="w-4 h-4 text-white" />
                 Área Restrita
                 <ChevronDown className="w-4 h-4 opacity-70 group-hover:rotate-180 transition-transform" />
               </Button>
@@ -148,7 +148,7 @@ export function Navbar() {
             className="xl:hidden p-2 text-slate-800 rounded-md hover:bg-slate-100 transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
-            {mobileMenuOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
+            {mobileMenuOpen ? <X className="w-7 h-7 text-slate-800" /> : <Menu className="w-7 h-7 text-slate-800" />}
           </button>
         </div>
       </div>

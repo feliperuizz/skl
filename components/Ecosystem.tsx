@@ -98,7 +98,7 @@ export function Ecosystem() {
               <div className="bg-[#5c0014]/60 backdrop-blur-xl border border-white/10 rounded-2xl sm:rounded-3xl p-6 sm:p-10 flex flex-col sm:flex-row items-center gap-6 sm:gap-10 shadow-[0_0_50px_rgba(0,0,0,0.5)]">
                 <div className="flex-shrink-0">
                   <div className="w-24 h-24 sm:w-28 sm:h-28 bg-white rounded-2xl flex items-center justify-center p-4 sm:p-5 shadow-inner border-b-4 border-secondary">
-                     <img src="./logoSKL.png" alt="SKL" className="w-full h-full object-contain" />
+                     <img src="./logo_standard.png" alt="SKL" className="w-full h-full object-contain" />
                   </div>
                 </div>
                 <div className="text-center sm:text-left flex-1">

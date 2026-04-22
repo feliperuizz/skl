@@ -41,9 +41,9 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
           >
-            Transforme decisões <br className="hidden sm:block" />
-            complexas em gestão <br className="hidden sm:block" />
-            <span className="text-primary italic">tributária estratégica.</span>
+            Excelência, transparência e  <br className="hidden sm:block" />
+            crescimento para o  <br className="hidden sm:block" />
+            <span className="text-primary italic">seu negócio.</span>
           </motion.h1>
 
           <motion.p
@@ -52,7 +52,8 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.4 }}
           >
-            Protegemos o seu patrimônio e maximizamos lucros. Auxiliamos negócios a reduzir impostos de maneira legal e sempre orientada por dados precisos.
+            Transformamos a contabilidade em estratégia para impulsionar resultados! <br className="hidden sm:block" />
+            Soluções contábeis inteligentes para otimizar resultados e garantir conformidade fiscal.
           </motion.p>
 
           <motion.div
@@ -71,12 +72,12 @@ export function Hero() {
                 size="lg"
                 className="rounded-md w-full sm:w-auto h-14 px-8 text-base shadow-lg shadow-primary/30"
               >
-                Fale com a SKL
+                Solicitar Proposta
               </Button>
             </a>
             
             <a href="#services" className="text-sm font-bold text-slate-700 hover:text-primary transition-colors cursor-pointer flex items-center justify-center sm:justify-start gap-2 py-4 sm:py-2 group px-4">
-              Descubra nossas soluções
+              Conheça nossas soluções
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform bg-primary/10 text-primary rounded-full p-1" />
             </a>
           </motion.div>

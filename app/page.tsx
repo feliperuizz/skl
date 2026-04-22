@@ -15,6 +15,8 @@ import { Clients } from "@/components/Clients";
 import { WorkingWithUs } from "@/components/WorkingWithUs";
 import { About } from "@/components/About";
 import { CTA } from "@/components/CTA";
+import { Certifications } from "@/components/Certifications";
+import { QuickAccess } from "@/components/QuickAccess";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -42,6 +44,9 @@ export default function Home() {
       <About />
       <Facilities />
       <CTA />
+      
+      <Certifications />
+      <QuickAccess />
       <Footer />
     </main>
   );
