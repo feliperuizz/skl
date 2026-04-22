@@ -60,9 +60,9 @@ export function Clients() {
   }, [emblaApi]);
 
   return (
-    <section className="py-24 bg-slate-50 overflow-hidden border-y border-slate-200">
+    <section className="pb-24 pt-12 bg-gradient-to-r from-[#C8923D] to-[#D68E3A] overflow-hidden shadow-inner">
       <SectionReveal className="text-center mb-12">
-        <h2 className="text-sm font-bold text-slate-400 uppercase tracking-[0.2em]">
+        <h2 className="text-sm font-bold text-white/90 uppercase tracking-[0.2em] drop-shadow-sm">
           Conheça quem confia em nosso trabalho
         </h2>
       </SectionReveal>
@@ -72,13 +72,13 @@ export function Clients() {
           {CLENT_LOGOS.map((url, index) => (
             <div 
               key={index} 
-              className="embla__slide flex-[0_0_150px] md:flex-[0_0_200px] mx-4 relative h-24 bg-white border border-slate-100 shadow-sm rounded-sm flex items-center justify-center p-4"
+              className="embla__slide flex-[0_0_150px] md:flex-[0_0_200px] mx-4 relative h-24 bg-white border border-white/20 shadow-md rounded-xl flex items-center justify-center p-4 hover:scale-105 transition-transform duration-300"
             >
               <Image 
                 src={url} 
                 alt={`Cliente SKL ${index + 1}`} 
                 fill 
-                className="object-contain p-2 grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100" 
+                className="object-contain p-4 transition-all duration-300" 
               />
             </div>
           ))}

@@ -4,6 +4,11 @@ import { Ecosystem } from "@/components/Ecosystem";
 import { Segments } from "@/components/Segments";
 import { Pillars } from "@/components/Pillars";
 import { Stats } from "@/components/Stats";
+import { History } from "@/components/History";
+import { HistoryStats } from "@/components/HistoryStats";
+import { MainServices } from "@/components/MainServices";
+import { PartnerHub } from "@/components/PartnerHub";
+import { TaxReform } from "@/components/TaxReform";
 import { Services } from "@/components/Services";
 import { Facilities } from "@/components/Facilities";
 import { Clients } from "@/components/Clients";
@@ -19,6 +24,14 @@ export default function Home() {
       <Hero />
       <Stats />
       
+      <History />
+      <HistoryStats />
+      <Clients />
+      
+      <MainServices />
+      <PartnerHub />
+      <TaxReform />
+      
       <Ecosystem />
       <Segments />
       
@@ -28,7 +41,6 @@ export default function Home() {
       <Services />
       <About />
       <Facilities />
-      <Clients />
       <CTA />
       <Footer />
     </main>

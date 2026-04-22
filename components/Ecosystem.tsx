@@ -105,11 +105,11 @@ export function Ecosystem() {
                   <p className="text-secondary text-xs sm:text-sm font-bold uppercase tracking-widest mb-2">O seu Hub Estratégico</p>
                   <h3 className="text-white text-xl sm:text-3xl font-bold mb-2">SKL Assessoria Contábil</h3>
                   <p className="text-white/80 text-sm sm:text-base leading-relaxed max-w-xl">
-                    Mais de 10 anos unificando todas as demandas contábeis e fiscais da sua empresa em um único ponto de contato altamente estratégico.
+                    Mais de 28 anos unificando todas as demandas contábeis e fiscais da sua empresa em um único ponto de contato altamente estratégico.
                   </p>
                 </div>
                 <div className="hidden lg:flex flex-shrink-0 flex-col gap-3 ml-auto">
-                  {["10+ Anos de Mercado", "Atendimento Premium", "Visão Estratégica"].map((tag) => (
+                  {["28+ Anos de Mercado", "Atendimento Premium", "Visão Estratégica"].map((tag) => (
                     <span key={tag} className="bg-black/40 text-white text-xs font-semibold px-4 py-2 rounded-full whitespace-nowrap border border-white/10 uppercase tracking-wider">{tag}</span>
                   ))}
                 </div>
