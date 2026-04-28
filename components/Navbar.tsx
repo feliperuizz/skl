@@ -5,51 +5,51 @@ import { Menu, X, ChevronDown, Lock } from "lucide-react";
 import { Button } from "./ui/button";
 
 const navItems = [
-  { label: "Home", href: "#", submenu: null },
+  { label: "Home", href: "/", submenu: null },
   { 
     label: "Institucional", 
-    href: "#about", 
+    href: "/institucional", 
     submenu: [
-      { label: "Nossa História", href: "#" },
-      { label: "Missão, Visão e Valores", href: "#" },
-      { label: "Política de Qualidade", href: "#" },
-      { label: "Nossa Estrutura", href: "#" },
-      { label: "Nossos Sistemas & Tecnologia", href: "#" },
-      { label: "Equipe / Profissionais", href: "#" },
-      { label: "Certificações / CRC / Compliance", href: "#" }
+      { label: "Nossa História", href: "/institucional#historia" },
+      { label: "Missão, Visão e Valores", href: "/institucional#missao-visao-valores" },
+      { label: "Política de Qualidade", href: "/institucional#politica-qualidade" },
+      { label: "Nossa Estrutura", href: "/institucional#estrutura" },
+      { label: "Nossos Sistemas & Tecnologia", href: "/institucional#sistemas-tecnologia" },
+      { label: "Equipe / Profissionais", href: "/institucional#equipe" },
+      { label: "Certificações / CRC / Compliance", href: "/institucional#certificacoes" }
     ]
   },
   { 
     label: "Serviços", 
-    href: "#services", 
+    href: "/servicos", 
     submenu: [
-      { label: "Contabilidade Completa", href: "#" },
-      { label: "Fiscal e Tributário", href: "#" },
-      { label: "Departamento Pessoal", href: "#" },
-      { label: "Reforma Tributária", href: "#" },
-      { label: "Imposto de Renda Pessoa Física", href: "#" },
-      { label: "Consultoria Empresarial e Treinamentos", href: "#" },
-      { label: "Holding e Planejamento Patrimonial", href: "#" },
-      { label: "HUB de Soluções Completo", href: "#" }
+      { label: "Contabilidade Completa", href: "/servicos#contabilidade" },
+      { label: "Fiscal e Tributário", href: "/servicos#fiscal" },
+      { label: "Departamento Pessoal", href: "/servicos#dp" },
+      { label: "Reforma Tributária", href: "/servicos#reforma-tributaria" },
+      { label: "Imposto de Renda Pessoa Física", href: "/servicos#irpf" },
+      { label: "Consultoria Empresarial e Treinamentos", href: "/servicos#consultoria" },
+      { label: "Holding e Planejamento Patrimonial", href: "/servicos#holding" },
+      { label: "HUB de Soluções Completo", href: "/servicos#hub-solucoes" }
     ]
   },
   { 
     label: "Segmentos", 
-    href: "#segmentos", 
+    href: "/segmentos", 
     submenu: [
-      { label: "Comércio e Indústrias", href: "#" },
-      { label: "Prestadores de Serviços", href: "#" },
-      { label: "Outros", href: "#" }
+      { label: "Comércio e Indústrias", href: "/segmentos#comercio-industrias" },
+      { label: "Prestadores de Serviços", href: "/segmentos#prestadores-servicos" },
+      { label: "Outros", href: "/segmentos#outros" }
     ]
   },
   { 
     label: "Contato", 
-    href: "#contact", 
+    href: "/contato", 
     submenu: [
-      { label: "Fale Conosco", href: "#" },
-      { label: "Abrir Empresa", href: "#" },
-      { label: "Transferência de Contabilidade", href: "#" },
-      { label: "Contatos e Localização", href: "#" }
+      { label: "Fale Conosco", href: "/contato#fale-conosco" },
+      { label: "Abrir Empresa", href: "/contato#abrir-empresa" },
+      { label: "Transferência de Contabilidade", href: "/contato#transferencia" },
+      { label: "Contatos e Localização", href: "/contato#localizacao" }
     ]
   },
   { label: "Conteúdos", href: "#", submenu: null },
@@ -76,7 +76,7 @@ export function Navbar() {
     >
       <div className="max-w-[1400px] mx-auto px-4 lg:px-6">
         <div className="flex items-center justify-between h-14 lg:h-16">
-          <a href="#" className="flex-shrink-0 mr-4">
+          <a href="/" className="flex-shrink-0 mr-4">
             <img
               src="./logo_standard.png"
               alt="SKL Contabilidade"

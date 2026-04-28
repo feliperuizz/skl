@@ -41,7 +41,7 @@ export function Footer() {
               <span className="absolute -bottom-2 left-0 w-8 h-1 bg-[#C8923D]"></span>
             </h4>
             <ul className="space-y-4 text-sm">
-              <li><a href="#" className="hover:text-[#C8923D] transition-colors">Página Inicial</a></li>
+              <li><a href="/" className="hover:text-[#C8923D] transition-colors">Página Inicial</a></li>
               <li><a href="#about" className="hover:text-[#C8923D] transition-colors">Metodologia</a></li>
               <li><a href="#services" className="hover:text-[#C8923D] transition-colors">Serviços</a></li>
               <li><a href="https://sklcontabil.com.br/area-restrita" className="hover:text-[#C8923D] transition-colors">Área Restrita</a></li>
