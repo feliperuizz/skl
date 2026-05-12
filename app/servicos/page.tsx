@@ -28,9 +28,9 @@ export default function Servicos() {
       <Navbar />
 
       {/* Hero Serviços */}
-      <section className="relative py-20 lg:py-32 bg-slate-950 overflow-hidden flex items-center justify-center text-center">
+      <section className="relative py-20 lg:py-32 bg-primary overflow-hidden flex items-center justify-center text-center">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#1a1400] via-[#0a0f1a] to-[#2F000A] z-10 opacity-90" />
+          <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/95 to-primary/90 z-10" />
         </div>
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 blur-[120px] rounded-full pointer-events-none z-0" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-secondary/20 blur-[120px] rounded-full pointer-events-none z-0" />
@@ -48,7 +48,7 @@ export default function Servicos() {
               Assessoria Especializada <br className="hidden md:block"/>
               <span className="text-primary italic font-serif">Para Cada Fase do Seu Negócio</span>
             </h1>
-            <p className="text-slate-300 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
+            <p className="text-white/80 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
               Mais do que cumprir obrigações fiscais, entregamos inteligência de negócios. Explore nosso portfólio completo de serviços desenvolvidos para blindar e alavancar o seu patrimônio.
             </p>
           </motion.div>
@@ -134,8 +134,8 @@ export default function Servicos() {
             <div className="lg:w-1/2 w-full">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-slate-200 relative p-8 flex items-center justify-center">
                 <div className="absolute inset-0 bg-[url('https://sklcontabil.com.br/wordpress/wp-content/uploads/2020/04/financeiro.jpg')] bg-cover bg-center opacity-40"></div>
-                <div className="absolute inset-0 bg-slate-900/60 mix-blend-multiply"></div>
-                <div className="relative z-10 text-white text-center">
+                <div className="absolute inset-0 bg-white/40"></div>
+                <div className="relative z-10 text-slate-900 text-center">
                   <div className="text-6xl font-black mb-2">100%</div>
                   <div className="text-xl font-bold uppercase tracking-widest text-primary">Compliance Fiscal</div>
                 </div>
@@ -264,14 +264,14 @@ export default function Servicos() {
       </section>
 
       {/* 6. Consultoria Empresarial e Treinamentos */}
-      <section id="consultoria" className="py-24 bg-[#2F000A] text-white scroll-mt-24 relative overflow-hidden">
+      <section id="consultoria" className="py-24 bg-primary text-white scroll-mt-24 relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full bg-[url('https://sklcontabil.com.br/wordpress/wp-content/uploads/2020/04/inst03.jpg')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10 text-center">
-          <Lightbulb className="w-16 h-16 text-primary mx-auto mb-6" />
-          <h2 className="text-3xl lg:text-5xl font-black mb-6">
-            Consultoria & <span className="text-primary italic font-serif">Treinamentos</span>
+          <Lightbulb className="w-16 h-16 text-white mx-auto mb-6" />
+          <h2 className="text-3xl lg:text-5xl font-black mb-6 text-white">
+            Consultoria & <span className="italic font-serif">Treinamentos</span>
           </h2>
-          <p className="text-white/80 text-lg max-w-3xl mx-auto leading-relaxed mb-12">
+          <p className="text-white text-lg max-w-3xl mx-auto leading-relaxed mb-12">
             Apoiamos gestores e equipes na tomada de decisões estratégicas e na padronização de processos corporativos. Transformamos dados contábeis em inteligência executiva.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
@@ -284,7 +284,7 @@ export default function Servicos() {
               "Implantação de ERP"
             ].map((item, i) => (
               <div key={i} className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-xl hover:bg-white/10 transition-colors text-left">
-                <CheckCircle2 className="w-5 h-5 text-primary mb-3" />
+                <CheckCircle2 className="w-5 h-5 text-white mb-3" />
                 <h4 className="font-bold text-white">{item}</h4>
               </div>
             ))}
@@ -303,9 +303,9 @@ export default function Servicos() {
                     <Building className="w-10 h-10 text-primary mb-3" />
                     <span className="font-bold text-slate-800">Proteção Patrimonial</span>
                   </div>
-                  <div className="bg-slate-900 p-6 rounded-2xl shadow-sm aspect-square flex flex-col items-center justify-center text-center">
+                  <div className="bg-primary p-6 rounded-2xl shadow-sm aspect-square flex flex-col items-center justify-center text-center">
                     <span className="text-4xl font-black text-white mb-2">ITCMD</span>
-                    <span className="text-sm font-medium text-slate-400">Redução de Custos</span>
+                    <span className="text-sm font-medium text-white/80">Redução de Custos</span>
                   </div>
                 </div>
                 <div className="space-y-4 mt-8">
@@ -333,7 +333,7 @@ export default function Servicos() {
               <p className="text-slate-600 text-lg leading-relaxed mb-8">
                 Proteja o patrimônio construído ao longo da vida e organize a sucessão familiar sem conflitos e com a máxima economia tributária. Estruturamos Holdings Familiares e Patrimoniais sob medida para o seu cenário.
               </p>
-              <Button className="rounded-full bg-slate-900 text-white hover:bg-primary h-12 px-8 text-base">
+              <Button className="rounded-full bg-primary text-white hover:bg-red-700 h-12 px-8 text-base">
                 Falar com especialista em Holding
               </Button>
             </motion.div>
@@ -367,8 +367,8 @@ export default function Servicos() {
       {/* CTA final */}
       <section className="py-20 bg-primary">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8">Pronto para elevar a gestão da sua empresa?</h2>
-          <Button className="rounded-full bg-slate-900 text-white hover:bg-slate-800 h-14 px-10 text-lg font-bold">
+          <h2 className="text-3xl md:text-4xl font-black text-white mb-8">Pronto para elevar a gestão da sua empresa?</h2>
+          <Button className="rounded-full bg-white text-primary hover:bg-slate-100 h-14 px-10 text-lg font-bold">
             Solicitar uma Proposta Comercial
           </Button>
         </div>

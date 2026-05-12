@@ -55,7 +55,7 @@ export function Segments() {
           <div className="flex justify-center mb-6">
              <img src="./logo_standard.png" alt="SKL" className="h-10 sm:h-12 w-auto object-contain" />
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+          <h2 className="mb-4">
             Oferecemos <span className="font-extrabold text-slate-800">soluções personalizadas</span>
             <br className="hidden sm:block" />
             para diversos setores
@@ -87,10 +87,10 @@ export function Segments() {
 
               {/* Content */}
               <div className="relative z-10">
-                <p className="text-white/80 font-semibold text-sm sm:text-base mb-1">
+                <p className="text-white/80 font-semibold mb-1">
                   Contabilidade para
                 </p>
-                <h3 className="font-bold text-3xl sm:text-4xl text-white mb-6 leading-tight">
+                <h3 className="text-white mb-6">
                   {seg.title}
                 </h3>
                 

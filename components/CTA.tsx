@@ -23,7 +23,7 @@ export function CTA() {
             Solicite uma análise tributária do seu negócio. Nossos especialistas mostrarão exatamente onde você pode lucrar mais.
           </p>
           <a
-            href="https://sklcontabil.com.br/contato-via-whatsapp/"
+            href="https://wa.me/message/MKFR5CDMJCQHI1"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block"

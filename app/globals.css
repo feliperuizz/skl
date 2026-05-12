@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -23,6 +23,24 @@
     background-color: hsl(var(--background));
     color: hsl(var(--foreground));
     font-feature-settings: "rlig" 1, "calt" 1;
+    @apply text-base text-slate-600 leading-relaxed;
+  }
+
+  /* Padrão Rigoroso de Tipografia */
+  h1 {
+    @apply text-[2.5rem] sm:text-[3.5rem] lg:text-[4rem] font-bold text-slate-900 leading-[1.1] tracking-tight;
+  }
+  h2 {
+    @apply text-[2rem] sm:text-[2.5rem] lg:text-[3rem] font-bold text-slate-900 leading-[1.2] tracking-tight;
+  }
+  h3 {
+    @apply text-[1.5rem] sm:text-[1.75rem] lg:text-[2rem] font-bold text-slate-800 leading-snug;
+  }
+  h4 {
+    @apply text-[1.25rem] sm:text-[1.5rem] font-bold text-slate-800 leading-snug;
+  }
+  p {
+    @apply text-base sm:text-lg text-slate-600 leading-relaxed;
   }
 }
 

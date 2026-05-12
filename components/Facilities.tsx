@@ -19,10 +19,10 @@ export function Facilities() {
       <div className="container mx-auto px-6 lg:px-12">
         <SectionReveal className="mb-16">
           <div className="w-20 h-1 bg-primary mb-8" />
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground">
+          <h2 className="mb-4">
             A Estrutura SKL
           </h2>
-          <p className="mt-4 text-slate-600 max-w-xl font-medium">
+          <p className="max-w-xl font-medium">
             Um ambiente preparado e moderno para receber você e sua empresa com o conforto e a tecnologia necessários para o seu sucesso.
           </p>
         </SectionReveal>

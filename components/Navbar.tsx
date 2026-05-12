@@ -117,31 +117,13 @@ export function Navbar() {
           </nav>
 
           <div className="hidden lg:flex items-center gap-4 flex-shrink-0">
-            {/* Area Restrita Dropdown Button */}
-            <div className="relative group">
+            {/* Area Restrita Button */}
+            <a href="/area-restrita">
               <Button className="rounded-md shadow-md hover:shadow-lg transition-all h-12 px-6 font-bold border border-primary text-base flex items-center gap-2">
                 <Lock className="w-4 h-4 text-white" />
                 Área Restrita
-                <ChevronDown className="w-4 h-4 opacity-70 group-hover:rotate-180 transition-transform" />
               </Button>
-              
-              <div className="absolute top-full right-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 min-w-[250px]">
-                <div className="bg-white rounded-md shadow-xl border border-slate-100 p-2 flex flex-col">
-                  <a href="https://sklcontabil.com.br/area-restrita" className="px-4 py-3 text-sm text-slate-700 hover:text-primary hover:bg-slate-50 rounded-sm transition-colors font-bold border-b border-slate-100 flex items-center gap-2">
-                    Acessar Plataforma
-                  </a>
-                  <a href="#" className="px-4 py-2 text-sm text-slate-600 hover:text-primary hover:bg-slate-50 rounded-sm transition-colors mt-1">
-                    Agenda e Eventos
-                  </a>
-                  <a href="#" className="px-4 py-2 text-sm text-slate-600 hover:text-primary hover:bg-slate-50 rounded-sm transition-colors">
-                    Principais Links
-                  </a>
-                  <a href="#" className="px-4 py-2 text-sm text-slate-600 hover:text-primary hover:bg-slate-50 rounded-sm transition-colors">
-                    Plataformas Acessórias
-                  </a>
-                </div>
-              </div>
-            </div>
+            </a>
           </div>
 
           <button
@@ -193,10 +175,12 @@ export function Navbar() {
             ))}
             
             <div className="pt-6">
-              <Button className="w-full flex items-center justify-center gap-2 h-14 text-base font-bold rounded-md shadow-md">
-                <Lock className="w-5 h-5" />
-                Área Restrita (Serviços)
-              </Button>
+              <a href="/area-restrita">
+                <Button className="w-full flex items-center justify-center gap-2 h-14 text-base font-bold rounded-md shadow-md">
+                  <Lock className="w-5 h-5" />
+                  Área Restrita
+                </Button>
+              </a>
             </div>
           </div>
         </div>

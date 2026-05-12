@@ -34,11 +34,11 @@ export function Services() {
               <span className="inline-block px-4 py-1.5 bg-primary/10 text-primary border border-primary/20 rounded-full text-xs font-bold mb-4 tracking-wide uppercase">
                 Nossa Expertise
               </span>
-              <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground leading-tight">
+              <h2 className="mb-4">
                 Soluções estratégicas para o seu negócio.
               </h2>
             </div>
-            <p className="text-slate-600 font-medium max-w-md">
+            <p className="font-medium max-w-md">
               Atendemos aos mais variados ramos de atividade com excelência técnica e agilidade no suporte diário.
             </p>
           </div>
@@ -47,7 +47,7 @@ export function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
             <SectionReveal key={index} delay={index * 0.1}>
-              <div className="group h-full p-8 border border-slate-200 bg-background hover:bg-foreground transition-all duration-500 rounded-2xl relative overflow-hidden cursor-pointer shadow-sm hover:shadow-2xl hover:-translate-y-2">
+              <div className="group h-full p-8 border border-slate-200 bg-background hover:bg-primary transition-all duration-500 rounded-2xl relative overflow-hidden cursor-pointer shadow-sm hover:shadow-2xl hover:-translate-y-2">
                 
                 {/* Background Favicongrande effect on hover! */}
                 <div className="absolute inset-0 z-0 opacity-0 group-hover:opacity-20 transition-all duration-700 translate-y-full group-hover:translate-y-0 bg-cover bg-no-repeat bg-bottom" 

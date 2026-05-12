@@ -53,7 +53,7 @@ export default function Contato() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="https://wa.me/551150332810" target="_blank" rel="noopener noreferrer" className="inline-block">
+                <a href="https://wa.me/message/MKFR5CDMJCQHI1" target="_blank" rel="noopener noreferrer" className="inline-block">
                   <Button className="w-full h-14 px-8 rounded-full bg-green-500 hover:bg-green-600 text-white text-lg font-bold shadow-lg shadow-green-500/30 flex items-center justify-center gap-2 transition-transform hover:scale-105">
                     <MessageCircle className="w-5 h-5" /> WhatsApp Direto
                   </Button>
@@ -129,8 +129,8 @@ export default function Contato() {
                 <p className="text-slate-600 text-lg mb-8 leading-relaxed">
                   Tire sua ideia do papel com a estrutura certa desde o dia zero. Cuidamos de todo o processo legal, escolha do regime tributário e emissão do seu CNPJ rápido!
                 </p>
-                <a href="https://wa.me/551150332810?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20como%20abrir%20minha%20empresa." target="_blank" rel="noopener noreferrer">
-                  <Button className="w-full sm:w-auto rounded-xl bg-slate-900 hover:bg-primary hover:text-slate-900 h-12 px-8 font-bold transition-colors">
+                <a href="https://wa.me/message/MKFR5CDMJCQHI1" target="_blank" rel="noopener noreferrer">
+                  <Button className="w-full sm:w-auto rounded-xl bg-slate-900 hover:bg-primary hover:text-white h-12 px-8 font-bold transition-colors">
                     Iniciar Abertura
                   </Button>
                 </a>
@@ -140,25 +140,25 @@ export default function Contato() {
             {/* Transferência de Contabilidade */}
             <motion.div 
               id="transferencia"
-              className="bg-slate-900 text-white rounded-3xl p-10 border-2 border-slate-800 hover:border-secondary transition-colors shadow-lg shadow-slate-900/20 scroll-mt-24 group relative overflow-hidden"
+              className="bg-primary text-white rounded-3xl p-10 border-2 border-primary hover:border-white transition-colors shadow-lg shadow-primary/20 scroll-mt-24 group relative overflow-hidden"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
               variants={fadeInUp}
               transition={{ delay: 0.1 }}
             >
-              <div className="absolute -right-10 -top-10 w-40 h-40 bg-secondary/20 rounded-full group-hover:scale-150 transition-transform duration-500 z-0" />
+              <div className="absolute -right-10 -top-10 w-40 h-40 bg-white/20 rounded-full group-hover:scale-150 transition-transform duration-500 z-0" />
               
               <div className="relative z-10">
-                <div className="w-16 h-16 bg-secondary text-white rounded-2xl flex items-center justify-center mb-8 -rotate-3 group-hover:rotate-0 transition-transform">
+                <div className="w-16 h-16 bg-white text-primary rounded-2xl flex items-center justify-center mb-8 -rotate-3 group-hover:rotate-0 transition-transform">
                   <ArrowRightLeft className="w-8 h-8" />
                 </div>
-                <h3 className="text-3xl font-black mb-4">Mudar de <span className="italic font-serif text-secondary">Contabilidade</span></h3>
-                <p className="text-slate-300 text-lg mb-8 leading-relaxed">
+                <h3 className="text-3xl font-black mb-4">Mudar de <span className="italic font-serif text-white opacity-90">Contabilidade</span></h3>
+                <p className="text-white/90 text-lg mb-8 leading-relaxed">
                   Insatisfeito com seu contador atual? A transição para a SKL é 100% digital, sem atritos e sem interrupções na sua rotina. Nós fazemos todo o trabalho chato por você.
                 </p>
-                <a href="https://wa.me/551150332810?text=Olá!%20Gostaria%20de%20falar%20sobre%20a%20transferência%20da%20minha%20contabilidade." target="_blank" rel="noopener noreferrer">
-                  <Button className="w-full sm:w-auto rounded-xl bg-secondary hover:bg-white hover:text-slate-900 h-12 px-8 font-bold transition-colors">
+                <a href="https://wa.me/message/MKFR5CDMJCQHI1" target="_blank" rel="noopener noreferrer">
+                  <Button className="w-full sm:w-auto rounded-xl bg-white text-primary hover:bg-slate-100 h-12 px-8 font-bold transition-colors">
                     Falar com Consultor
                   </Button>
                 </a>

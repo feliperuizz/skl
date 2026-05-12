@@ -33,11 +33,11 @@ export function About() {
             <div className="inline-block px-4 py-1.5 bg-secondary/10 text-secondary border border-secondary/30 rounded-full text-sm font-bold mb-6 tracking-wide uppercase">
               Trajetória de Sucesso
             </div>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8">
+            <h2 className="text-white mb-8">
               A base forte para o <br />
               <span className="text-primary italic">crescimento corporativo.</span>
             </h2>
-            <p className="text-white/60 text-lg leading-relaxed mb-8">
+            <p className="text-white/60 mb-8">
               Nossa história é pautada por levar inovação e extrema segurança técnica aos negócios de nossos clientes. Cada CNPJ que atendemos recebe nossa assinatura de qualidade inegociável.
             </p>
           </SectionReveal>
@@ -47,10 +47,10 @@ export function About() {
               {pillars.map((pillar, index) => (
                 <SectionReveal key={index} delay={0.2 + (index * 0.1)}>
                   <div className="flex gap-6">
-                     <span className="text-6xl font-black text-white/5 font-display leading-none mt-1">0{index + 1}</span>
+                     <span className="text-6xl font-black text-white/5 leading-none mt-1">0{index + 1}</span>
                      <div>
-                       <h3 className="text-xl font-bold uppercase tracking-wider mb-2 text-secondary">{pillar.title}</h3>
-                       <p className="text-slate-300 font-medium leading-relaxed text-lg">{pillar.description}</p>
+                       <h3 className="text-secondary uppercase mb-2">{pillar.title}</h3>
+                       <p className="text-slate-300 font-medium">{pillar.description}</p>
                      </div>
                   </div>
                 </SectionReveal>

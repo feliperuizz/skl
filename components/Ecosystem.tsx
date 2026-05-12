@@ -29,7 +29,7 @@ const staggerContainer = {
 
 export function Ecosystem() {
   return (
-    <section className="py-16 sm:py-24 bg-gradient-to-br from-slate-900 via-[#8a0020] to-primary overflow-hidden relative" id="ecosystem">
+    <section className="py-16 sm:py-24 bg-gradient-to-br from-primary via-[#e60537] to-[#ff1a4a] overflow-hidden relative" id="ecosystem">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
         <motion.div
           className="text-center max-w-3xl mx-auto mb-14 sm:mb-20"
@@ -39,12 +39,12 @@ export function Ecosystem() {
           variants={fadeInUp}
           transition={{ duration: 0.7 }}
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-5 drop-shadow-md">
+          <h2 className="text-white mb-5 drop-shadow-md">
             Mais do que contabilidade,{" "}
             <span className="text-secondary italic">um ecossistema de gestão</span>{" "}
             que inspira crescimento.
           </h2>
-          <p className="text-white/80 text-base sm:text-lg leading-relaxed">
+          <p className="text-white/80">
             Com abordagens contábeis avançadas, criamos uma rede de suporte estratégico para dar convicção às decisões do seu negócio.
           </p>
         </motion.div>
@@ -95,7 +95,7 @@ export function Ecosystem() {
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              <div className="bg-[#5c0014]/60 backdrop-blur-xl border border-white/10 rounded-2xl sm:rounded-3xl p-6 sm:p-10 flex flex-col sm:flex-row items-center gap-6 sm:gap-10 shadow-[0_0_50px_rgba(0,0,0,0.5)]">
+              <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl sm:rounded-3xl p-6 sm:p-10 flex flex-col sm:flex-row items-center gap-6 sm:gap-10 shadow-[0_0_50px_rgba(0,0,0,0.15)]">
                 <div className="flex-shrink-0">
                   <div className="w-24 h-24 sm:w-28 sm:h-28 bg-white rounded-2xl flex items-center justify-center p-4 sm:p-5 shadow-inner border-b-4 border-secondary">
                      <img src="./logo_standard.png" alt="SKL" className="w-full h-full object-contain" />
@@ -103,8 +103,8 @@ export function Ecosystem() {
                 </div>
                 <div className="text-center sm:text-left flex-1">
                   <p className="text-secondary text-xs sm:text-sm font-bold uppercase tracking-widest mb-2">O seu Hub Estratégico</p>
-                  <h3 className="text-white text-xl sm:text-3xl font-bold mb-2">SKL Assessoria Contábil</h3>
-                  <p className="text-white/80 text-sm sm:text-base leading-relaxed max-w-xl">
+                  <h3 className="text-white mb-2">SKL Assessoria Contábil</h3>
+                  <p className="text-white/80 max-w-xl">
                     Mais de 28 anos unificando todas as demandas contábeis e fiscais da sua empresa em um único ponto de contato altamente estratégico.
                   </p>
                 </div>

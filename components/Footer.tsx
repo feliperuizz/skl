@@ -5,7 +5,7 @@ import { Mail, Phone, Instagram, Linkedin, Clock, MapPin } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer id="contact" className="bg-slate-950 text-slate-300 pt-20 pb-10">
+    <footer id="contact" className="bg-primary text-white pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         
         {/* Main Footer Content */}
@@ -19,16 +19,16 @@ export function Footer() {
                 alt="SKL" 
                 className="h-12 w-auto mb-6 object-contain" 
               />
-              <p className="text-sm font-medium italic leading-relaxed text-slate-400 border-l-2 border-[#C8923D] pl-4">
+              <p className="text-sm font-medium italic leading-relaxed text-white border-l-2 border-white/30 pl-4">
                 "Contabilizando sucessos, simplificando negócios e maximizando oportunidades."
               </p>
             </div>
             
             <div className="flex gap-4">
-              <a href="https://instagram.com" target="_blank" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#C8923D] hover:text-white transition-all duration-300">
+              <a href="https://instagram.com" target="_blank" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white hover:text-primary transition-all duration-300">
                 <Instagram size={18} />
               </a>
-              <a href="https://linkedin.com" target="_blank" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#C8923D] hover:text-white transition-all duration-300">
+              <a href="https://linkedin.com" target="_blank" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white hover:text-primary transition-all duration-300">
                 <Linkedin size={18} />
               </a>
             </div>
@@ -38,13 +38,13 @@ export function Footer() {
           <SectionReveal delay={0.1} className="lg:col-span-1">
             <h4 className="text-white font-bold text-lg mb-8 relative">
               Menu de Acesso
-              <span className="absolute -bottom-2 left-0 w-8 h-1 bg-[#C8923D]"></span>
+              <span className="absolute -bottom-2 left-0 w-8 h-1 bg-white/40"></span>
             </h4>
             <ul className="space-y-4 text-sm">
-              <li><a href="/" className="hover:text-[#C8923D] transition-colors">Página Inicial</a></li>
-              <li><a href="#about" className="hover:text-[#C8923D] transition-colors">Metodologia</a></li>
-              <li><a href="#services" className="hover:text-[#C8923D] transition-colors">Serviços</a></li>
-              <li><a href="https://sklcontabil.com.br/area-restrita" className="hover:text-[#C8923D] transition-colors">Área Restrita</a></li>
+              <li><a href="/" className="hover:opacity-70 transition-opacity">Página Inicial</a></li>
+              <li><a href="#about" className="hover:opacity-70 transition-opacity">Metodologia</a></li>
+              <li><a href="#services" className="hover:opacity-70 transition-opacity">Serviços</a></li>
+              <li><a href="https://sklcontabil.com.br/area-restrita" className="hover:opacity-70 transition-opacity">Área Restrita</a></li>
             </ul>
           </SectionReveal>
 
@@ -52,19 +52,19 @@ export function Footer() {
           <SectionReveal delay={0.2} className="lg:col-span-1">
             <h4 className="text-white font-bold text-lg mb-8 relative">
               Contatos Rápidos
-              <span className="absolute -bottom-2 left-0 w-8 h-1 bg-[#C8923D]"></span>
+              <span className="absolute -bottom-2 left-0 w-8 h-1 bg-white/40"></span>
             </h4>
             <ul className="space-y-5 text-sm">
               <li className="flex items-start gap-3">
-                <Mail size={18} className="text-[#C8923D] shrink-0" />
-                <a href="mailto:comercial@sklcontabil.com.br" className="hover:text-white transition-colors">comercial@sklcontabil.com.br</a>
+                <Mail size={18} className="text-white shrink-0" />
+                <a href="mailto:comercial@sklcontabil.com.br" className="hover:opacity-70 transition-opacity">comercial@sklcontabil.com.br</a>
               </li>
               <li className="flex items-start gap-3">
-                <Phone size={18} className="text-[#C8923D] shrink-0" />
-                <a href="https://wa.me/551150332810" className="hover:text-white transition-colors">(11) 5033-2810</a>
+                <Phone size={18} className="text-white shrink-0" />
+                <a href="https://wa.me/message/MKFR5CDMJCQHI1" className="hover:opacity-70 transition-opacity">Atendimento via WhatsApp</a>
               </li>
               <li className="flex items-start gap-3">
-                <Clock size={18} className="text-[#C8923D] shrink-0" />
+                <Clock size={18} className="text-white shrink-0" />
                 <span>
                   08:30 - 12:00 / 13:00 - 17:30 <br />
                   Segunda a Sexta
@@ -90,12 +90,12 @@ export function Footer() {
         </SectionReveal>
 
         {/* Footer Bottom */}
-        <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row items-center justify-between text-[10px] uppercase tracking-[0.2em] font-bold text-slate-500">
-          <p>© {new Date().getFullYear()} SKL Contabilidade. Todos os direitos reservados.</p>
+        <div className="pt-10 border-t border-white/10 flex flex-col md:flex-row items-center justify-between text-[10px] uppercase tracking-[0.2em] font-bold">
+          <p className="text-white">© {new Date().getFullYear()} SKL Contabilidade. Todos os direitos reservados.</p>
           <div className="mt-6 md:mt-0 flex gap-8">
-            <a href="#" className="hover:text-white transition-colors">Privacidade</a>
-            <a href="#" className="hover:text-white transition-colors">Termos</a>
-            <a href="https://sitecontabil.com.br" target="_blank" className="hover:text-white transition-colors">Desenvolvido por Sitecontabil</a>
+            <a href="https://wa.me/message/MKFR5CDMJCQHI1" className="text-white hover:opacity-80 transition-opacity">Atendimento via WhatsApp</a>
+            <a href="#" className="text-white hover:opacity-80 transition-opacity">Termos</a>
+            <a href="https://sitecontabil.com.br" target="_blank" className="text-white hover:opacity-80 transition-opacity">Desenvolvido por Sitecontabil</a>
           </div>
         </div>
       </div>

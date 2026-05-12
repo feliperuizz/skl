@@ -30,9 +30,9 @@ export default function Segmentos() {
       <Navbar />
 
       {/* Hero Segmentos */}
-      <section className="relative py-20 lg:py-32 bg-[#020817] overflow-hidden flex items-center justify-center text-center">
+      <section className="relative py-20 lg:py-32 bg-primary overflow-hidden flex items-center justify-center text-center">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#0a0f1a]/90 via-[#020817] to-[#0f172a]/90 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary to-primary/90 z-10" />
           <div className="absolute inset-0 bg-[url('/industria.png')] bg-cover bg-center opacity-10" />
         </div>
         
@@ -53,7 +53,7 @@ export default function Segmentos() {
               Dominamos a <br className="hidden md:block"/>
               <span className="text-primary italic font-serif">Linguagem do seu Negócio</span>
             </h1>
-            <p className="text-slate-300 text-lg md:text-xl font-medium max-w-2xl mx-auto leading-relaxed">
+            <p className="text-white/80 text-lg md:text-xl font-medium max-w-2xl mx-auto leading-relaxed">
               Cada setor possui suas próprias complexidades tributárias e trabalhistas. Nossa equipe é dividida em células de especialidade para entregar resultados precisos para a sua realidade.
             </p>
           </motion.div>
@@ -123,17 +123,17 @@ export default function Segmentos() {
       </section>
 
       {/* 2. Prestadores de Serviços */}
-      <section id="prestadores-servicos" className="py-24 bg-slate-900 text-white scroll-mt-24 relative overflow-hidden">
+      <section id="prestadores-servicos" className="py-24 bg-primary text-white scroll-mt-24 relative overflow-hidden">
         <div className="absolute right-0 top-0 w-1/2 h-full bg-[url('/prestadores.png')] bg-cover bg-center opacity-5" />
-        <div className="absolute inset-0 bg-gradient-to-l from-transparent to-slate-900 z-0" />
+        <div className="absolute inset-0 bg-gradient-to-l from-transparent to-primary z-0" />
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">Carga Tributária Otimizada</h2>
             <h3 className="text-3xl lg:text-5xl font-black mb-6">
-              Prestadores de <span className="text-secondary italic font-serif">Serviços</span>
+              Prestadores de <span className="text-white italic font-serif opacity-90">Serviços</span>
             </h3>
-            <p className="text-slate-300 text-lg max-w-2xl mx-auto">
+            <p className="text-white/90 text-lg max-w-2xl mx-auto">
               Seu maior custo é a folha de pagamento e o ISS. Atuamos com inteligência para enquadrar sua empresa no melhor cenário tributário (Simples, Presumido ou Real).
             </p>
           </div>
@@ -162,13 +162,13 @@ export default function Segmentos() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="bg-white/5 border border-white/10 p-8 rounded-2xl hover:bg-white/10 transition-colors backdrop-blur-sm"
+                className="bg-white/10 border border-white/10 p-8 rounded-2xl hover:bg-white/20 transition-colors backdrop-blur-sm"
               >
-                <div className="w-14 h-14 bg-secondary/20 rounded-xl flex items-center justify-center mb-6">
-                  <card.icon className="w-7 h-7 text-secondary" />
+                <div className="w-14 h-14 bg-white/10 rounded-xl flex items-center justify-center mb-6">
+                  <card.icon className="w-7 h-7 text-white" />
                 </div>
                 <h4 className="text-xl font-bold mb-4">{card.title}</h4>
-                <p className="text-slate-400 leading-relaxed">{card.desc}</p>
+                <p className="text-white/70 leading-relaxed">{card.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -246,13 +246,13 @@ export default function Segmentos() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-slate-950 text-white text-center">
+      <section className="py-20 bg-white text-slate-900 text-center border-t border-slate-200">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-black mb-6">Traga a realidade da sua empresa para nós</h2>
-          <p className="text-slate-400 text-lg mb-10">
+          <h2 className="text-3xl md:text-4xl font-black mb-6 text-primary">Traga a realidade da sua empresa para nós</h2>
+          <p className="text-slate-600 text-lg mb-10">
             Nossos especialistas estão prontos para traçar um diagnóstico da sua operação e apresentar uma proposta de valor real.
           </p>
-          <Button className="rounded-full bg-primary text-slate-900 hover:bg-white h-14 px-10 text-lg font-bold transition-colors">
+          <Button className="rounded-full bg-primary text-white hover:bg-red-700 h-14 px-10 text-lg font-bold transition-colors">
             Agendar Reunião de Diagnóstico
           </Button>
         </div>

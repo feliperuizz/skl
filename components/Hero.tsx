@@ -36,7 +36,7 @@ export function Hero() {
           </motion.div>
 
           <motion.h1
-            className="text-3xl sm:text-4xl lg:text-5xl font-display font-extrabold text-slate-900 leading-[1.15] mb-4 tracking-tight"
+            className="mb-4"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
@@ -47,7 +47,7 @@ export function Hero() {
           </motion.h1>
 
           <motion.p
-            className="text-sm sm:text-base text-slate-600 mb-6 leading-relaxed font-medium"
+            className="mb-6 font-medium"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.4 }}
@@ -63,7 +63,7 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.5 }}
           >
             <a
-              href="https://sklcontabil.com.br/contato-via-whatsapp/"
+              href="https://wa.me/message/MKFR5CDMJCQHI1"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full sm:w-auto"

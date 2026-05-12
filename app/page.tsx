@@ -27,7 +27,6 @@ export default function Home() {
       <Stats />
       
       <History />
-      <HistoryStats />
       <Clients />
       
       <MainServices />

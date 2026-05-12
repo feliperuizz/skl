@@ -28,7 +28,7 @@ export function WhatsAppWidget() {
       )}
 
       <a 
-        href="https://sklcontabil.com.br/contato-via-whatsapp/" 
+        href="https://wa.me/message/MKFR5CDMJCQHI1" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="flex-shrink-0 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:bg-[#1EBE59] hover:scale-110 transition-all duration-300 pointer-events-auto flex items-center justify-center relative"

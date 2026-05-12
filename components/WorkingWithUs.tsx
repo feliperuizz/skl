@@ -74,7 +74,7 @@ export function WorkingWithUs() {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-12">
+              <h2 className="mb-12">
                 A contabilidade que <br className="hidden lg:block"/>trabalha ao seu lado
               </h2>
             </motion.div>
@@ -94,10 +94,10 @@ export function WorkingWithUs() {
                     <div className="w-2.5 h-10 bg-primary rounded-full" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-800 text-lg sm:text-xl">
+                    <h4 className="mb-1">
                       {benefit.title}:
                     </h4>
-                    <p className="text-slate-600 text-sm sm:text-base leading-relaxed mt-1">
+                    <p>
                       {benefit.desc}
                     </p>
                   </div>
@@ -113,7 +113,7 @@ export function WorkingWithUs() {
               className="mt-10"
             >
               <a 
-                href="https://sklcontabil.com.br/contato-via-whatsapp/" 
+                href="https://wa.me/message/MKFR5CDMJCQHI1" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-primary font-bold text-lg hover:text-[#900018] group transition-colors"

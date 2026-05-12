@@ -9,7 +9,6 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        display: ['Space Grotesk', 'sans-serif'],
       },
       colors: {
         background: "#F8F9FA",

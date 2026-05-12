@@ -61,7 +61,7 @@ export function MainServices() {
                     {service.description}
                   </p>
                   <a 
-                    href="https://sklcontabil.com.br/contato-via-whatsapp/" 
+                    href="https://wa.me/message/MKFR5CDMJCQHI1" 
                     target="_blank"
                     className="inline-flex items-center gap-2 text-primary font-bold text-sm uppercase tracking-wider group/link"
                   >

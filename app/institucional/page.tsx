@@ -30,9 +30,9 @@ export default function Institucional() {
       <Navbar />
 
       {/* Hero Institucional Customizado */}
-      <section className="relative py-24 lg:py-40 bg-[#0a0f1a] overflow-hidden flex items-center justify-center text-center border-b border-white/10">
+      <section className="relative py-24 lg:py-40 bg-primary overflow-hidden flex items-center justify-center text-center border-b border-white/10">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0a0f1a]/80 via-[#0a0f1a]/95 to-[#0a0f1a] z-10" />
+          <div className="absolute inset-0 bg-gradient-to-b from-primary/80 via-primary/95 to-primary z-10" />
           <div className="absolute inset-0 bg-[url('/equipe-real.jpg')] bg-cover bg-center opacity-20" />
         </div>
         
@@ -63,7 +63,7 @@ export default function Institucional() {
               Excelência <span className="text-secondary italic font-serif">Absoluta</span> <br/>
               em Gestão Contábil
             </h1>
-            <p className="text-slate-400 text-lg md:text-xl font-medium max-w-2xl mx-auto leading-relaxed">
+            <p className="text-white/70 text-lg md:text-xl font-medium max-w-2xl mx-auto leading-relaxed">
               Descubra a infraestrutura, os valores e a tecnologia que fazem da SKL o parceiro definitivo para a segurança e o crescimento do seu negócio.
             </p>
           </motion.div>
@@ -176,21 +176,21 @@ export default function Institucional() {
       </section>
 
       {/* Política de Qualidade - Layout Institucional */}
-      <section id="politica-qualidade" className="py-24 bg-slate-950 text-white scroll-mt-24 relative overflow-hidden">
+      <section id="politica-qualidade" className="py-24 bg-primary text-white scroll-mt-24 relative overflow-hidden">
         <div className="absolute right-0 top-0 w-1/2 h-full bg-[url('/equipe-real.jpg')] bg-cover bg-center opacity-10" />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/95 to-transparent z-0" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/95 to-transparent z-0" />
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-3xl">
             <div className="flex items-center gap-3 mb-6">
-              <ShieldCheck className="w-8 h-8 text-primary" />
-              <span className="text-primary font-bold tracking-widest uppercase text-sm">Compliance & Segurança</span>
+              <ShieldCheck className="w-8 h-8 text-white" />
+              <span className="text-white font-bold tracking-widest uppercase text-sm">Compliance & Segurança</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-black mb-8">Política de Qualidade</h2>
+            <h2 className="text-4xl md:text-5xl font-black mb-8 text-white">Política de Qualidade</h2>
             
-            <div className="w-20 h-1 bg-secondary mb-10"></div>
+            <div className="w-20 h-1 bg-white/30 mb-10"></div>
             
-            <p className="text-slate-300 text-lg md:text-xl leading-relaxed mb-12">
+            <p className="text-white text-lg md:text-xl leading-relaxed mb-12">
               A SKL Contabilidade compromete-se rigorosamente com a melhoria contínua de seus processos e a satisfação absoluta de seus clientes. Nossa política de qualidade é inegociável e baseia-se em quatro fundamentos técnicos.
             </p>
 
@@ -201,9 +201,9 @@ export default function Institucional() {
                 { icon: Lock, text: "Segurança e confidencialidade total da informação" },
                 { icon: ChevronRight, text: "Atendimento monitorado com SLA definido" }
               ].map((item, i) => (
-                <div key={i} className="flex items-start gap-4 p-4 bg-white/5 rounded-lg border border-white/10">
-                  <item.icon className="w-6 h-6 text-secondary shrink-0 mt-0.5" />
-                  <span className="text-slate-200 font-medium">{item.text}</span>
+                <div key={i} className="flex items-start gap-4 p-4 bg-white/10 rounded-lg border border-white/10">
+                  <item.icon className="w-6 h-6 text-white shrink-0 mt-0.5" />
+                  <span className="text-white font-medium">{item.text}</span>
                 </div>
               ))}
             </div>
@@ -287,7 +287,7 @@ export default function Institucional() {
                 transition={{ delay: idx * 0.1 }}
                 className="bg-white p-8 border border-slate-200 hover:border-primary transition-colors flex flex-col h-full"
               >
-                <div className="w-14 h-14 bg-slate-900 text-white flex items-center justify-center mb-6">
+                <div className="w-14 h-14 bg-primary text-white flex items-center justify-center mb-6">
                   <tech.icon className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-4">{tech.title}</h3>
@@ -336,11 +336,11 @@ export default function Institucional() {
       </section>
 
       {/* Certificações / CRC / Compliance - Layout Customizado */}
-      <section id="certificacoes" className="py-24 bg-slate-900 text-white scroll-mt-24">
+      <section id="certificacoes" className="py-24 bg-white text-slate-900 scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <Award className="w-12 h-12 text-primary mx-auto mb-6" />
           <h2 className="text-3xl md:text-4xl font-black mb-16">
-            Certificações & <span className="text-secondary italic font-serif">Compliance</span>
+            Certificações & <span className="text-primary italic font-serif">Compliance</span>
           </h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
@@ -360,8 +360,8 @@ export default function Institucional() {
                     className="max-h-full max-w-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-500"
                   />
                 </div>
-                <h4 className="font-bold text-sm tracking-wider uppercase mb-2 text-slate-200">{cert.title}</h4>
-                <p className="text-slate-400 text-sm">{cert.desc}</p>
+                <h4 className="font-bold text-sm tracking-wider uppercase mb-2 text-slate-900">{cert.title}</h4>
+                <p className="text-slate-600 text-sm">{cert.desc}</p>
               </motion.div>
             ))}
           </div>
