@@ -38,7 +38,7 @@ export default function Segmentos() {
         
         {/* Abstract Shapes */}
         <div className="absolute top-1/4 -right-1/4 w-[800px] h-[800px] bg-primary/10 blur-[150px] rounded-full pointer-events-none z-0" />
-        <div className="absolute -bottom-1/4 -left-1/4 w-[600px] h-[600px] bg-secondary/10 blur-[120px] rounded-full pointer-events-none z-0" />
+        <div className="absolute -bottom-1/4 -left-1/4 w-[600px] h-[600px] bg-primary/10 blur-[120px] rounded-full pointer-events-none z-0" />
 
         <div className="max-w-4xl mx-auto px-4 relative z-20">
           <motion.div
@@ -72,15 +72,15 @@ export default function Segmentos() {
               transition={{ duration: 0.6 }}
             >
               <div className="grid grid-cols-2 gap-4">
-                <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 flex flex-col justify-center gap-3 hover:border-primary/50 transition-colors">
+                <div className="bg-white p-6 rounded-2xl border border-neutral-100 flex flex-col justify-center gap-3 hover:border-primary/50 transition-colors">
                   <Factory className="w-10 h-10 text-primary" />
                   <span className="font-bold text-neutral-800">Indústrias de Transformação</span>
                 </div>
-                <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 flex flex-col justify-center gap-3 hover:border-primary/50 transition-colors">
+                <div className="bg-white p-6 rounded-2xl border border-neutral-100 flex flex-col justify-center gap-3 hover:border-primary/50 transition-colors">
                   <ShoppingCart className="w-10 h-10 text-primary" />
                   <span className="font-bold text-neutral-800">Atacado & Distribuição</span>
                 </div>
-                <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 flex flex-col justify-center gap-3 hover:border-primary/50 transition-colors col-span-2">
+                <div className="bg-white p-6 rounded-2xl border border-neutral-100 flex flex-col justify-center gap-3 hover:border-primary/50 transition-colors col-span-2">
                   <Store className="w-10 h-10 text-primary" />
                   <span className="font-bold text-neutral-800">Varejo & Franquias</span>
                 </div>
@@ -94,13 +94,13 @@ export default function Segmentos() {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">Complexidade Resolvida</h2>
+              <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Complexidade Resolvida</h2>
               <h3 className="text-3xl lg:text-5xl font-black text-neutral-900 mb-6">
                 Comércio & <span className="text-primary italic font-serif">Indústrias</span>
               </h3>
-              <div className="w-16 h-1.5 bg-secondary mb-8"></div>
+              <div className="w-16 h-1.5 bg-primary mb-8"></div>
               
-              <p className="text-slate-600 text-lg leading-relaxed mb-8">
+              <p className="text-neutral-600 text-lg leading-relaxed mb-8">
                 Indústrias e grandes comércios operam em um campo minado de regras fiscais. Dominamos a legislação de IPI, ICMS, Substituição Tributária (ICMS-ST) e o bloco K, garantindo que sua produção e estoque não gerem passivos milionários.
               </p>
               
@@ -112,8 +112,8 @@ export default function Segmentos() {
                   "Mapeamento de incentivos fiscais estaduais"
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-3">
-                    <ArrowRight className="w-5 h-5 text-secondary shrink-0" />
-                    <span className="text-slate-700 font-medium">{item}</span>
+                    <ArrowRight className="w-5 h-5 text-white shrink-0" />
+                    <span className="text-neutral-700 font-medium">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -129,7 +129,7 @@ export default function Segmentos() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">Carga Tributária Otimizada</h2>
+            <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Carga Tributária Otimizada</h2>
             <h3 className="text-3xl lg:text-5xl font-black mb-6">
               Prestadores de <span className="text-white italic font-serif opacity-90">Serviços</span>
             </h3>
@@ -176,7 +176,7 @@ export default function Segmentos() {
       </section>
 
       {/* 3. Outros (Nichos Específicos) */}
-      <section id="outros" className="py-24 bg-slate-50 scroll-mt-24">
+      <section id="outros" className="py-24 bg-white scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex flex-col lg:flex-row items-center gap-16">
             <motion.div 
@@ -191,7 +191,7 @@ export default function Segmentos() {
                 <span className="text-primary italic font-serif">Casos Específicos</span>
               </h2>
               <div className="w-16 h-1.5 bg-primary mb-8"></div>
-              <p className="text-slate-600 text-lg leading-relaxed mb-8">
+              <p className="text-neutral-600 text-lg leading-relaxed mb-8">
                 Nossa robustez técnica nos permite atender com segurança jurídica entidades e organizações que possuem legislações extremamente singulares e específicas.
               </p>
               
@@ -213,13 +213,13 @@ export default function Segmentos() {
                     desc: "Gestão de folha complexa, retenções de síndicos e tributação sobre aluguéis."
                   }
                 ].map((item, i) => (
-                  <div key={i} className="flex items-start gap-4 p-5 bg-white rounded-xl shadow-sm border border-slate-100">
-                    <div className="p-3 bg-slate-100 rounded-lg text-slate-700">
+                  <div key={i} className="flex items-start gap-4 p-5 bg-white rounded-xl shadow-sm border border-neutral-100">
+                    <div className="p-3 bg-white rounded-lg text-neutral-700">
                       <item.icon className="w-6 h-6" />
                     </div>
                     <div>
                       <h4 className="font-bold text-neutral-900">{item.title}</h4>
-                      <p className="text-sm text-slate-500 mt-1">{item.desc}</p>
+                      <p className="text-sm text-neutral-500 mt-1">{item.desc}</p>
                     </div>
                   </div>
                 ))}
@@ -246,10 +246,10 @@ export default function Segmentos() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-white text-neutral-900 text-center border-t border-slate-200">
+      <section className="py-20 bg-white text-neutral-900 text-center border-t border-neutral-200">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-black mb-6 text-primary">Traga a realidade da sua empresa para nós</h2>
-          <p className="text-slate-600 text-lg mb-10">
+          <p className="text-neutral-600 text-lg mb-10">
             Nossos especialistas estão prontos para traçar um diagnóstico da sua operação e apresentar uma proposta de valor real.
           </p>
           <Button className="rounded-full bg-primary text-white hover:bg-red-700 h-14 px-10 text-lg font-bold transition-colors">

@@ -41,7 +41,7 @@ export function Ecosystem() {
         >
           <h2 className="text-white mb-5 drop-shadow-md">
             Mais do que contabilidade,{" "}
-            <span className="text-secondary italic">um ecossistema de gestão</span>{" "}
+            <span className="text-white italic">um ecossistema de gestão</span>{" "}
             que inspira crescimento.
           </h2>
           <p className="text-white/80">
@@ -71,11 +71,11 @@ export function Ecosystem() {
                   transition={{ duration: 0.5, delay: i * 0.1 }}
                   className="flex flex-col items-center gap-3 group cursor-default"
                 >
-                  <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl flex items-center justify-center group-hover:bg-secondary/20 group-hover:border-secondary/50 transition-all duration-300 shadow-lg">
-                    <node.icon className="w-7 h-7 sm:w-9 sm:h-9 text-white group-hover:text-secondary transition-colors duration-300" />
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl flex items-center justify-center group-hover:bg-primary/20 group-hover:border-primary/50 transition-all duration-300 shadow-lg">
+                    <node.icon className="w-7 h-7 sm:w-9 sm:h-9 text-white group-hover:text-white transition-colors duration-300" />
                   </div>
                   <div className="text-center">
-                    <p className="text-xs sm:text-sm font-semibold text-white group-hover:text-secondary transition-colors duration-300 leading-tight">{node.label}</p>
+                    <p className="text-xs sm:text-sm font-semibold text-white group-hover:text-white transition-colors duration-300 leading-tight">{node.label}</p>
                     <p className="text-xs text-white/60 mt-0.5 hidden sm:block">{node.desc}</p>
                   </div>
                 </motion.div>
@@ -97,12 +97,12 @@ export function Ecosystem() {
             >
               <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl sm:rounded-3xl p-6 sm:p-10 flex flex-col sm:flex-row items-center gap-6 sm:gap-10 shadow-[0_0_50px_rgba(0,0,0,0.15)]">
                 <div className="flex-shrink-0">
-                  <div className="w-24 h-24 sm:w-28 sm:h-28 bg-white rounded-2xl flex items-center justify-center p-4 sm:p-5 shadow-inner border-b-4 border-secondary">
+                  <div className="w-24 h-24 sm:w-28 sm:h-28 bg-white rounded-2xl flex items-center justify-center p-4 sm:p-5 shadow-inner border-b-4 border-primary">
                      <img src="./logo_standard.png" alt="SKL" className="w-full h-full object-contain" />
                   </div>
                 </div>
                 <div className="text-center sm:text-left flex-1">
-                  <p className="text-secondary text-xs sm:text-sm font-bold uppercase tracking-widest mb-2">O seu Hub Estratégico</p>
+                  <p className="text-white text-xs sm:text-sm font-bold uppercase tracking-widest mb-2">O seu Hub Estratégico</p>
                   <h3 className="text-white mb-2">SKL Assessoria Contábil</h3>
                   <p className="text-white/80 max-w-xl">
                     Mais de 28 anos unificando todas as demandas contábeis e fiscais da sua empresa em um único ponto de contato altamente estratégico.
@@ -140,8 +140,8 @@ export function Ecosystem() {
                   transition={{ duration: 0.5, delay: i * 0.12 }}
                   className="flex flex-col items-center gap-2 group cursor-default"
                 >
-                  <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white/10 border border-white/20 rounded-xl flex items-center justify-center group-hover:bg-secondary/20 transition-all duration-300">
-                    <result.icon className="w-5 h-5 sm:w-7 sm:h-7 text-white group-hover:text-secondary transition-colors" />
+                  <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white/10 border border-white/20 rounded-xl flex items-center justify-center group-hover:bg-primary/20 transition-all duration-300">
+                    <result.icon className="w-5 h-5 sm:w-7 sm:h-7 text-white group-hover:text-white transition-colors" />
                   </div>
                   <div className="text-center">
                     <p className="text-xs sm:text-sm font-semibold text-white leading-tight">{result.label}</p>

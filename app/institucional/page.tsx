@@ -60,7 +60,7 @@ export default function Institucional() {
               <div className="h-[1px] w-12 bg-primary"></div>
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-8 leading-tight">
-              Excelência <span className="text-secondary italic font-serif">Absoluta</span> <br/>
+              Excelência <span className="text-white italic font-serif">Absoluta</span> <br/>
               em Gestão Contábil
             </h1>
             <p className="text-white/70 text-lg md:text-xl font-medium max-w-2xl mx-auto leading-relaxed">
@@ -81,13 +81,13 @@ export default function Institucional() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">Nossa História</h2>
+              <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Nossa História</h2>
               <h3 className="text-4xl lg:text-5xl font-black text-neutral-900 mb-6 leading-tight">
                 Mais de 28 anos <br/> <span className="text-primary italic font-serif">construindo confiança.</span>
               </h3>
-              <div className="w-16 h-1.5 bg-secondary mb-8"></div>
+              <div className="w-16 h-1.5 bg-primary mb-8"></div>
               
-              <div className="space-y-6 text-slate-600 text-lg leading-relaxed">
+              <div className="space-y-6 text-neutral-600 text-lg leading-relaxed">
                 <p>
                   A trajetória da SKL Assessoria Contábil começou com um propósito claro: transcender a contabilidade tradicional. Desde nossa fundação, entendemos que nossos clientes não buscam apenas conformidade legal, mas sim uma bússola para decisões estratégicas.
                 </p>
@@ -96,14 +96,14 @@ export default function Institucional() {
                 </p>
               </div>
               
-              <div className="mt-10 grid grid-cols-2 gap-8 pt-8 border-t border-slate-100">
+              <div className="mt-10 grid grid-cols-2 gap-8 pt-8 border-t border-neutral-100">
                 <div>
                   <div className="text-4xl font-black text-primary mb-1">+28</div>
-                  <div className="text-sm font-bold text-slate-500 uppercase">Anos de Mercado</div>
+                  <div className="text-sm font-bold text-neutral-500 uppercase">Anos de Mercado</div>
                 </div>
                 <div>
                   <div className="text-4xl font-black text-primary mb-1">100%</div>
-                  <div className="text-sm font-bold text-slate-500 uppercase">Comprometimento</div>
+                  <div className="text-sm font-bold text-neutral-500 uppercase">Comprometimento</div>
                 </div>
               </div>
             </motion.div>
@@ -119,17 +119,17 @@ export default function Institucional() {
                 <img src="/equipe-real.jpg" alt="História SKL" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-neutral-900/10"></div>
               </div>
-              <div className="absolute -bottom-8 -left-8 w-48 h-48 bg-secondary/10 rounded-full blur-3xl -z-10"></div>
+              <div className="absolute -bottom-8 -left-8 w-48 h-48 bg-primary/10 rounded-full blur-3xl -z-10"></div>
             </motion.div>
           </div>
         </div>
       </section>
 
       {/* Missão, Visão e Valores - Layout Institucional */}
-      <section id="missao-visao-valores" className="py-24 bg-slate-50 scroll-mt-24 border-y border-slate-200">
+      <section id="missao-visao-valores" className="py-24 bg-white scroll-mt-24 border-y border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-20">
-            <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">DNA Corporativo</h2>
+            <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">DNA Corporativo</h2>
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900">
               Pilares que <span className="text-primary italic font-serif">sustentam</span> nosso trabalho
             </h3>
@@ -164,11 +164,11 @@ export default function Institucional() {
                 <div className="absolute top-0 right-0 p-6 opacity-5 group-hover:opacity-10 transition-opacity">
                   <item.icon className="w-24 h-24 text-primary" />
                 </div>
-                <div className="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mb-8 border border-slate-100 relative z-10">
-                  <item.icon className="w-8 h-8 text-secondary" />
+                <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-8 border border-neutral-100 relative z-10">
+                  <item.icon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-neutral-900 mb-4 relative z-10">{item.title}</h3>
-                <p className="text-slate-600 leading-relaxed relative z-10">{item.desc}</p>
+                <p className="text-neutral-600 leading-relaxed relative z-10">{item.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -216,12 +216,12 @@ export default function Institucional() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div>
-              <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">Infraestrutura</h2>
+              <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Infraestrutura</h2>
               <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900">
                 Nossa <span className="text-primary italic font-serif">Estrutura</span>
               </h3>
             </div>
-            <p className="text-slate-600 max-w-lg text-lg">
+            <p className="text-neutral-600 max-w-lg text-lg">
               Um ambiente corporativo moderno, projetado para garantir o conforto da nossa equipe, a segurança das informações e a melhor recepção para os nossos clientes.
             </p>
           </div>
@@ -234,7 +234,7 @@ export default function Institucional() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className={`relative rounded-xl overflow-hidden group bg-slate-100 ${
+                className={`relative rounded-xl overflow-hidden group bg-white ${
                   idx === 0 ? "col-span-2 row-span-2 md:aspect-auto aspect-square" : "aspect-square"
                 }`}
               >
@@ -252,10 +252,10 @@ export default function Institucional() {
       </section>
 
       {/* Nossos Sistemas e Tecnologia - Layout Corporativo */}
-      <section id="sistemas-tecnologia" className="py-24 bg-slate-50 scroll-mt-24 border-t border-slate-200">
+      <section id="sistemas-tecnologia" className="py-24 bg-white scroll-mt-24 border-t border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">Vanguarda Digital</h2>
+            <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Vanguarda Digital</h2>
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900">
               Sistemas & <span className="text-primary italic font-serif">Tecnologia</span>
             </h3>
@@ -285,13 +285,13 @@ export default function Institucional() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="bg-white p-8 border border-slate-200 hover:border-primary transition-colors flex flex-col h-full"
+                className="bg-white p-8 border border-neutral-200 hover:border-primary transition-colors flex flex-col h-full"
               >
                 <div className="w-14 h-14 bg-primary text-white flex items-center justify-center mb-6">
                   <tech.icon className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-bold text-neutral-900 mb-4">{tech.title}</h3>
-                <p className="text-slate-600 leading-relaxed mt-auto">{tech.desc}</p>
+                <p className="text-neutral-600 leading-relaxed mt-auto">{tech.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -299,7 +299,7 @@ export default function Institucional() {
       </section>
 
       {/* Equipe / Profissionais - Layout Institucional */}
-      <section id="equipe" className="py-24 bg-white scroll-mt-24 border-t border-slate-100">
+      <section id="equipe" className="py-24 bg-white scroll-mt-24 border-t border-neutral-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex flex-col lg:flex-row items-center gap-16">
             <motion.div 
@@ -316,17 +316,17 @@ export default function Institucional() {
             </motion.div>
             
             <div className="lg:w-1/2 order-1 lg:order-2">
-              <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">Capital Humano</h2>
+              <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Capital Humano</h2>
               <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900 mb-6 leading-tight">
                 Intelecto e <br/>
-                <span className="text-secondary italic font-serif">Alta Performance</span>
+                <span className="text-white italic font-serif">Alta Performance</span>
               </h3>
-              <p className="text-slate-600 text-lg leading-relaxed mb-8">
+              <p className="text-neutral-600 text-lg leading-relaxed mb-8">
                 Nosso maior patrimônio não são as máquinas, são as mentes. A SKL conta com um corpo técnico formado por contadores seniores, especialistas tributários, auditores e analistas em constante atualização.
               </p>
               
-              <div className="bg-slate-50 p-6 border-l-4 border-secondary">
-                <p className="text-slate-700 italic font-medium">
+              <div className="bg-white p-6 border-l-4 border-primary">
+                <p className="text-neutral-700 italic font-medium">
                   "Não somos apenas processadores de guias. Somos consultores de negócios focados em otimizar a carga tributária e garantir a paz de espírito dos nossos clientes."
                 </p>
               </div>
@@ -353,7 +353,7 @@ export default function Institucional() {
                 transition={{ delay: index * 0.1 }}
                 className="flex flex-col items-center group"
               >
-                <div className="h-32 w-full bg-white rounded-lg p-4 mb-6 flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-2 group-hover:shadow-[0_10px_30px_rgba(181,151,32,0.2)]">
+                <div className="h-32 w-full bg-white rounded-lg p-4 mb-6 flex items-center justify-center transition-transform duration-300 group-hover:-tranneutral-y-2 group-hover:shadow-[0_10px_30px_rgba(181,151,32,0.2)]">
                   <img 
                     src={cert.image} 
                     alt={cert.title} 
@@ -361,7 +361,7 @@ export default function Institucional() {
                   />
                 </div>
                 <h4 className="font-bold text-sm tracking-wider uppercase mb-2 text-neutral-900">{cert.title}</h4>
-                <p className="text-slate-600 text-sm">{cert.desc}</p>
+                <p className="text-neutral-600 text-sm">{cert.desc}</p>
               </motion.div>
             ))}
           </div>

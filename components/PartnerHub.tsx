@@ -26,7 +26,7 @@ export function PartnerHub() {
     <section className="py-24 bg-white text-neutral-900 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[120px] -z-0" />
-      <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-secondary/5 rounded-full blur-[100px] -z-0" />
+      <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-primary/5 rounded-full blur-[100px] -z-0" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 mb-16">
@@ -38,7 +38,7 @@ export function PartnerHub() {
               Apresentamos nosso <br />
               <span className="text-primary italic">Ecossistema de Parcerias</span>
             </h2>
-            <p className="text-slate-600 text-lg leading-relaxed">
+            <p className="text-neutral-600 text-lg leading-relaxed">
               Para entregar uma experiência 360°, a SKL se une a empresas especialistas que complementam nossa excelência técnica.
             </p>
           </SectionReveal>
@@ -60,7 +60,7 @@ export function PartnerHub() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 items-stretch">
           {partners.map((partner, index) => (
             <SectionReveal key={index} delay={index * 0.2} className="h-full">
-              <div className="group relative bg-white border border-slate-200 shadow-xl rounded-[2rem] p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start h-full hover:shadow-2xl hover:-translate-y-1 transition-all duration-500">
+              <div className="group relative bg-white border border-neutral-200 shadow-xl rounded-[2rem] p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start h-full hover:shadow-2xl hover:-tranneutral-y-1 transition-all duration-500">
                 <div className="w-32 h-32 md:w-40 md:h-40 rounded-2xl overflow-hidden flex-shrink-0">
                   <img 
                     src={partner.image} 
@@ -76,7 +76,7 @@ export function PartnerHub() {
                   <p className="text-primary font-bold text-xs uppercase tracking-widest mb-3">
                     {partner.fullName}
                   </p>
-                  <p className="text-slate-600 text-sm mb-6 leading-relaxed flex-grow">
+                  <p className="text-neutral-600 text-sm mb-6 leading-relaxed flex-grow">
                     {partner.description}
                   </p>
                   <a 
@@ -84,7 +84,7 @@ export function PartnerHub() {
                     className="inline-flex items-center gap-2 text-neutral-900 font-bold text-sm hover:text-primary transition-colors group/link"
                   >
                     Ver detalhes do parceiro
-                    <ExternalLink className="w-4 h-4 group-hover/link:translate-x-1 group-hover/link:-translate-y-1 transition-transform" />
+                    <ExternalLink className="w-4 h-4 group-hover/link:tranneutral-x-1 group-hover/link:-tranneutral-y-1 transition-transform" />
                   </a>
                 </div>
               </div>

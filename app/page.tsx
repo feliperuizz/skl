@@ -2,7 +2,6 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { Ecosystem } from "@/components/Ecosystem";
 import { Segments } from "@/components/Segments";
-import { Pillars } from "@/components/Pillars";
 import { Stats } from "@/components/Stats";
 import { History } from "@/components/History";
 import { HistoryStats } from "@/components/HistoryStats";
@@ -37,7 +36,6 @@ export default function Home() {
       <Segments />
       
       <WorkingWithUs />
-      <Pillars />
       
       <Services />
       <About />

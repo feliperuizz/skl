@@ -36,7 +36,7 @@ const segments = [
 
 export function Segments() {
   return (
-    <section className="py-20 sm:py-32 bg-slate-50 relative overflow-hidden">
+    <section className="py-20 sm:py-32 bg-white relative overflow-hidden">
       {/* Background Favicon decoration used as a small floating watermark */}
       <div className="absolute top-10 right-10 opacity-10 pointer-events-none">
         <img src="./favicongrande.png" alt="FAVICON" className="w-32 rotate-6" />

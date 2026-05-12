@@ -15,10 +15,10 @@ export function QuickAccess() {
   ];
 
   return (
-    <section className="py-16 bg-slate-50 relative overflow-hidden">
+    <section className="py-16 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <SectionReveal className="text-center mb-10">
-          <h2 className="text-2xl font-bold text-slate-700">Acesso Rápido</h2>
+          <h2 className="text-2xl font-bold text-neutral-700">Acesso Rápido</h2>
         </SectionReveal>
 
         <div className="relative flex items-center justify-center">
@@ -29,7 +29,7 @@ export function QuickAccess() {
                   href={link.url} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block w-24 h-24 md:w-32 md:h-32 bg-white p-4 border border-slate-100 rounded-xl shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex items-center justify-center group"
+                  className="block w-24 h-24 md:w-32 md:h-32 bg-white p-4 border border-neutral-100 rounded-xl shadow-sm hover:shadow-md hover:-tranneutral-y-1 transition-all duration-300 flex items-center justify-center group"
                 >
                   <img 
                     src={link.image} 

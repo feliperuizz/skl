@@ -49,7 +49,7 @@ export function HistoryStats() {
   ];
 
   return (
-    <section className="pb-24 sm:pb-32 bg-slate-50">
+    <section className="pb-24 sm:pb-32 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <motion.div
           className="grid grid-cols-2 lg:grid-cols-4 gap-12 sm:gap-16"
@@ -67,7 +67,7 @@ export function HistoryStats() {
               <div className="text-5xl sm:text-6xl lg:text-7xl font-black text-primary leading-none mb-4 flex justify-center items-baseline tracking-tighter">
                 <Counter value={stat.value} suffix={stat.suffix} />
               </div>
-              <div className="text-sm sm:text-base font-bold text-slate-500 uppercase tracking-[0.2em] max-w-[180px] mx-auto leading-tight">
+              <div className="text-sm sm:text-base font-bold text-neutral-500 uppercase tracking-[0.2em] max-w-[180px] mx-auto leading-tight">
                 {stat.label}
               </div>
             </motion.div>

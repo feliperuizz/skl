@@ -1,14 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { 
-  Briefcase, 
-  Calculator, 
-  Users, 
-  Scale, 
-  FileText, 
-  Lightbulb, 
-  Building, 
+import {
+  Briefcase,
+  Calculator,
+  Users,
+  Scale,
+  FileText,
+  Lightbulb,
+  Building,
   Network,
   CheckCircle2,
   ArrowRight
@@ -28,13 +28,13 @@ export default function Servicos() {
       <Navbar />
 
       {/* Hero Serviços */}
-      <section className="relative py-20 lg:py-32 bg-primary overflow-hidden flex items-center justify-center text-center">
+      <section className="relative py-20 lg:py-32 bg-slate-950 overflow-hidden flex items-center justify-center text-center">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/95 to-primary/90 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#1a1400] via-[#0a0f1a] to-[#2F000A] z-10 opacity-90" />
         </div>
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 blur-[120px] rounded-full pointer-events-none z-0" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-secondary/20 blur-[120px] rounded-full pointer-events-none z-0" />
-        
+
         <div className="max-w-5xl mx-auto px-4 relative z-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -45,10 +45,10 @@ export default function Servicos() {
               <Briefcase className="w-4 h-4" /> Portfólio de Soluções
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-white mb-6 leading-tight">
-              Assessoria Especializada <br className="hidden md:block"/>
+              Assessoria Especializada <br className="hidden md:block" />
               <span className="text-primary italic font-serif">Para Cada Fase do Seu Negócio</span>
             </h1>
-            <p className="text-white/80 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
+            <p className="text-slate-300 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
               Mais do que cumprir obrigações fiscais, entregamos inteligência de negócios. Explore nosso portfólio completo de serviços desenvolvidos para blindar e alavancar o seu patrimônio.
             </p>
           </motion.div>
@@ -59,7 +59,7 @@ export default function Servicos() {
       <section id="contabilidade" className="py-24 bg-white scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex flex-col lg:flex-row items-center gap-16">
-            <motion.div 
+            <motion.div
               className="lg:w-1/2"
               initial="hidden"
               whileInView="visible"
@@ -69,7 +69,7 @@ export default function Servicos() {
               <div className="w-16 h-16 bg-primary/10 text-primary rounded-2xl flex items-center justify-center mb-6">
                 <Briefcase className="w-8 h-8" />
               </div>
-              <h2 className="text-3xl lg:text-4xl font-black text-neutral-900 mb-6">
+              <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-6">
                 Contabilidade <span className="text-primary italic font-serif">Completa</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
@@ -102,7 +102,7 @@ export default function Servicos() {
       <section id="fiscal" className="py-24 bg-slate-50 border-y border-slate-200 scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex flex-col lg:flex-row-reverse items-center gap-16">
-            <motion.div 
+            <motion.div
               className="lg:w-1/2"
               initial="hidden"
               whileInView="visible"
@@ -112,7 +112,7 @@ export default function Servicos() {
               <div className="w-16 h-16 bg-secondary/10 text-secondary rounded-2xl flex items-center justify-center mb-6">
                 <Calculator className="w-8 h-8" />
               </div>
-              <h2 className="text-3xl lg:text-4xl font-black text-neutral-900 mb-6">
+              <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-6">
                 Assessoria <span className="text-secondary italic font-serif">Fiscal e Tributária</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
@@ -134,8 +134,8 @@ export default function Servicos() {
             <div className="lg:w-1/2 w-full">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-slate-200 relative p-8 flex items-center justify-center">
                 <div className="absolute inset-0 bg-[url('https://sklcontabil.com.br/wordpress/wp-content/uploads/2020/04/financeiro.jpg')] bg-cover bg-center opacity-40"></div>
-                <div className="absolute inset-0 bg-white/40"></div>
-                <div className="relative z-10 text-neutral-900 text-center">
+                <div className="absolute inset-0 bg-slate-900/60 mix-blend-multiply"></div>
+                <div className="relative z-10 text-white text-center">
                   <div className="text-6xl font-black mb-2">100%</div>
                   <div className="text-xl font-bold uppercase tracking-widest text-primary">Compliance Fiscal</div>
                 </div>
@@ -148,7 +148,7 @@ export default function Servicos() {
       {/* 3. Departamento Pessoal */}
       <section id="dp" className="py-24 bg-white scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <motion.div 
+          <motion.div
             className="text-center max-w-3xl mx-auto mb-16"
             initial="hidden"
             whileInView="visible"
@@ -158,7 +158,7 @@ export default function Servicos() {
             <div className="w-16 h-16 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mb-6 mx-auto">
               <Users className="w-8 h-8" />
             </div>
-            <h2 className="text-3xl lg:text-4xl font-black text-neutral-900 mb-6">
+            <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-6">
               Gestão de <span className="text-blue-600 italic font-serif">Departamento Pessoal</span>
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed">
@@ -172,7 +172,7 @@ export default function Servicos() {
               { title: "eSocial & Obrigações", desc: "Gestão completa do eSocial, envio de eventos, DCTFWeb, DIRF e acompanhamento de convenções coletivas." },
               { title: "Gestão de Ciclo", desc: "Admissões, rescisões, controle de férias, licenças e suporte técnico a fiscalizações." }
             ].map((item, i) => (
-              <motion.div 
+              <motion.div
                 key={i}
                 className="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:border-blue-200 transition-colors"
                 initial={{ opacity: 0, y: 20 }}
@@ -181,9 +181,9 @@ export default function Servicos() {
                 transition={{ delay: i * 0.1 }}
               >
                 <div className="w-10 h-10 bg-white shadow-sm rounded-lg flex items-center justify-center mb-4 text-blue-600 font-black text-xl">
-                  0{i+1}
+                  0{i + 1}
                 </div>
-                <h3 className="text-xl font-bold text-neutral-900 mb-3">{item.title}</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
                 <p className="text-slate-600">{item.desc}</p>
               </motion.div>
             ))}
@@ -192,25 +192,25 @@ export default function Servicos() {
       </section>
 
       {/* 4. Reforma Tributária */}
-      <section id="reforma-tributaria" className="py-24 bg-neutral-950 text-white scroll-mt-24 relative overflow-hidden">
+      <section id="reforma-tributaria" className="py-24 bg-slate-900 text-white scroll-mt-24 relative overflow-hidden">
         <div className="absolute right-0 bottom-0 w-1/2 h-[200%] bg-primary/5 -skew-x-12 translate-x-1/4"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
           <div className="flex flex-col lg:flex-row items-center gap-12">
-            <motion.div 
+            <motion.div
               className="lg:w-5/12"
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
             >
               <div className="w-full aspect-square bg-gradient-to-tr from-primary to-secondary rounded-full p-1 shadow-[0_0_80px_rgba(181,151,32,0.3)]">
-                <div className="w-full h-full bg-neutral-900 rounded-full flex flex-col items-center justify-center p-8 text-center border-4 border-neutral-900">
+                <div className="w-full h-full bg-slate-900 rounded-full flex flex-col items-center justify-center p-8 text-center border-4 border-slate-900">
                   <Scale className="w-16 h-16 text-primary mb-4" />
                   <h3 className="text-2xl font-black mb-2 text-white">Transição Segura</h3>
                   <p className="text-slate-400 text-sm">Preparação completa para as novas regras de IVA Dual (CBS e IBS).</p>
                 </div>
               </div>
             </motion.div>
-            <motion.div 
+            <motion.div
               className="lg:w-7/12"
               initial="hidden"
               whileInView="visible"
@@ -218,7 +218,7 @@ export default function Servicos() {
               variants={fadeInUp}
             >
               <h2 className="text-3xl lg:text-5xl font-black mb-6">
-                Consultoria em <br/>
+                Consultoria em <br />
                 <span className="text-primary italic font-serif">Reforma Tributária</span>
               </h2>
               <div className="w-20 h-1 bg-secondary mb-8"></div>
@@ -244,7 +244,7 @@ export default function Servicos() {
                 <div className="p-3 bg-green-100 text-green-700 rounded-xl">
                   <FileText className="w-8 h-8" />
                 </div>
-                <h2 className="text-3xl font-black text-neutral-900">IRPF Especializado</h2>
+                <h2 className="text-3xl font-black text-slate-900">IRPF Especializado</h2>
               </div>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
                 Cuidamos da Declaração de Imposto de Renda Pessoa Física de sócios, diretores e do público em geral. Uma análise detalhada para evitar malha fina, justificar variação patrimonial e garantir a restituição correta.
@@ -264,14 +264,14 @@ export default function Servicos() {
       </section>
 
       {/* 6. Consultoria Empresarial e Treinamentos */}
-      <section id="consultoria" className="py-24 bg-primary text-white scroll-mt-24 relative overflow-hidden">
+      <section id="consultoria" className="py-24 bg-[#2F000A] text-white scroll-mt-24 relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full bg-[url('https://sklcontabil.com.br/wordpress/wp-content/uploads/2020/04/inst03.jpg')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10 text-center">
-          <Lightbulb className="w-16 h-16 text-white mx-auto mb-6" />
-          <h2 className="text-3xl lg:text-5xl font-black mb-6 text-white">
-            Consultoria & <span className="italic font-serif">Treinamentos</span>
+          <Lightbulb className="w-16 h-16 text-primary mx-auto mb-6" />
+          <h2 className="text-3xl lg:text-5xl font-black mb-6">
+            Consultoria & <span className="text-primary italic font-serif">Treinamentos</span>
           </h2>
-          <p className="text-white text-lg max-w-3xl mx-auto leading-relaxed mb-12">
+          <p className="text-white/80 text-lg max-w-3xl mx-auto leading-relaxed mb-12">
             Apoiamos gestores e equipes na tomada de decisões estratégicas e na padronização de processos corporativos. Transformamos dados contábeis em inteligência executiva.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
@@ -284,7 +284,7 @@ export default function Servicos() {
               "Implantação de ERP"
             ].map((item, i) => (
               <div key={i} className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-xl hover:bg-white/10 transition-colors text-left">
-                <CheckCircle2 className="w-5 h-5 text-white mb-3" />
+                <CheckCircle2 className="w-5 h-5 text-primary mb-3" />
                 <h4 className="font-bold text-white">{item}</h4>
               </div>
             ))}
@@ -301,11 +301,11 @@ export default function Servicos() {
                 <div className="space-y-4">
                   <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 aspect-square flex flex-col items-center justify-center text-center">
                     <Building className="w-10 h-10 text-primary mb-3" />
-                    <span className="font-bold text-neutral-800">Proteção Patrimonial</span>
+                    <span className="font-bold text-slate-800">Proteção Patrimonial</span>
                   </div>
-                  <div className="bg-primary p-6 rounded-2xl shadow-sm aspect-square flex flex-col items-center justify-center text-center">
+                  <div className="bg-slate-900 p-6 rounded-2xl shadow-sm aspect-square flex flex-col items-center justify-center text-center">
                     <span className="text-4xl font-black text-white mb-2">ITCMD</span>
-                    <span className="text-sm font-medium text-white/80">Redução de Custos</span>
+                    <span className="text-sm font-medium text-slate-400">Redução de Custos</span>
                   </div>
                 </div>
                 <div className="space-y-4 mt-8">
@@ -314,26 +314,26 @@ export default function Servicos() {
                     <span className="text-sm font-medium text-white/80">Familiar e Empresarial</span>
                   </div>
                   <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 aspect-square flex flex-col items-center justify-center text-center">
-                    <Scale className="w-10 h-10 text-neutral-800 mb-3" />
-                    <span className="font-bold text-neutral-800">Blindagem Legal</span>
+                    <Scale className="w-10 h-10 text-slate-800 mb-3" />
+                    <span className="font-bold text-slate-800">Blindagem Legal</span>
                   </div>
                 </div>
               </div>
             </div>
-            <motion.div 
+            <motion.div
               className="lg:w-1/2 order-1 lg:order-2"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <h2 className="text-3xl lg:text-5xl font-black text-neutral-900 mb-6">
-                Holding & <br/> <span className="text-secondary italic font-serif">Planejamento Patrimonial</span>
+              <h2 className="text-3xl lg:text-5xl font-black text-slate-900 mb-6">
+                Holding & <br /> <span className="text-secondary italic font-serif">Planejamento Patrimonial</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-8">
                 Proteja o patrimônio construído ao longo da vida e organize a sucessão familiar sem conflitos e com a máxima economia tributária. Estruturamos Holdings Familiares e Patrimoniais sob medida para o seu cenário.
               </p>
-              <Button className="rounded-full bg-primary text-white hover:bg-red-700 h-12 px-8 text-base">
+              <Button className="rounded-full bg-slate-900 text-white hover:bg-primary h-12 px-8 text-base">
                 Falar com especialista em Holding
               </Button>
             </motion.div>
@@ -345,18 +345,18 @@ export default function Servicos() {
       <section id="hub-solucoes" className="py-24 bg-white border-t border-slate-100 scroll-mt-24 text-center">
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <div className="w-24 h-24 bg-slate-50 rounded-full flex items-center justify-center mx-auto mb-8 border border-slate-200">
-            <Network className="w-10 h-10 text-neutral-800" />
+            <Network className="w-10 h-10 text-slate-800" />
           </div>
-          <h2 className="text-3xl lg:text-4xl font-black text-neutral-900 mb-6">
+          <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-6">
             HUB de <span className="text-primary italic font-serif">Soluções Completas</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed mb-12">
             Muito além da contabilidade, conectamos sua empresa a um ecossistema de parceiros validados em áreas críticas de gestão.
           </p>
-          
+
           <div className="flex flex-wrap justify-center gap-4">
             {["Certificação Digital", "Registro de Marcas", "Abertura de Empresas", "BPO Financeiro", "Seguros Empresariais", "Sistemas de Gestão"].map((item, i) => (
-              <span key={i} className="px-6 py-3 bg-slate-50 border border-slate-200 rounded-full text-neutral-800 font-bold hover:border-primary hover:text-primary transition-colors cursor-default">
+              <span key={i} className="px-6 py-3 bg-slate-50 border border-slate-200 rounded-full text-slate-800 font-bold hover:border-primary hover:text-primary transition-colors cursor-default">
                 {item}
               </span>
             ))}
@@ -367,8 +367,8 @@ export default function Servicos() {
       {/* CTA final */}
       <section className="py-20 bg-primary">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-black text-white mb-8">Pronto para elevar a gestão da sua empresa?</h2>
-          <Button className="rounded-full bg-white text-primary hover:bg-slate-100 h-14 px-10 text-lg font-bold">
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8">Pronto para elevar a gestão da sua empresa?</h2>
+          <Button className="rounded-full bg-slate-900 text-white hover:bg-slate-800 h-14 px-10 text-lg font-bold">
             Solicitar uma Proposta Comercial
           </Button>
         </div>

@@ -76,9 +76,9 @@ export function Hero() {
               </Button>
             </a>
             
-            <a href="#services" className="text-sm font-bold text-slate-700 hover:text-primary transition-colors cursor-pointer flex items-center justify-center sm:justify-start gap-2 py-4 sm:py-2 group px-4">
+            <a href="#services" className="text-sm font-bold text-neutral-700 hover:text-primary transition-colors cursor-pointer flex items-center justify-center sm:justify-start gap-2 py-4 sm:py-2 group px-4">
               Conheça nossas soluções
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform bg-primary/10 text-primary rounded-full p-1" />
+              <ArrowRight className="w-5 h-5 group-hover:tranneutral-x-1 transition-transform bg-primary/10 text-primary rounded-full p-1" />
             </a>
           </motion.div>
         </motion.div>

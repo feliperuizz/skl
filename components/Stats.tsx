@@ -17,7 +17,7 @@ const staggerContainer = {
 
 export function Stats() {
   return (
-    <section className="pt-16 pb-8 sm:pt-20 sm:pb-12 bg-background border-t border-slate-100">
+    <section className="pt-16 pb-8 sm:pt-20 sm:pb-12 bg-background border-t border-neutral-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <motion.div
           className="flex flex-col sm:flex-row flex-wrap justify-between items-center gap-8 sm:gap-12 lg:gap-16"
@@ -44,7 +44,7 @@ export function Stats() {
               <div className="text-base sm:text-lg font-bold text-neutral-800 mt-2 leading-tight uppercase tracking-wider">
                 {stat.label}
               </div>
-              <div className="text-xs sm:text-sm text-slate-500 mt-1 font-medium">
+              <div className="text-xs sm:text-sm text-neutral-500 mt-1 font-medium">
                 {stat.sub}
               </div>
             </motion.div>

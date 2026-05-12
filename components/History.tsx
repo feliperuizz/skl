@@ -5,7 +5,7 @@ import { SectionReveal } from "./ui/SectionReveal";
 
 export function History() {
   return (
-    <section className="pt-8 pb-24 sm:pt-12 sm:pb-32 bg-slate-50 overflow-hidden">
+    <section className="pt-8 pb-24 sm:pt-12 sm:pb-32 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
           
@@ -27,7 +27,7 @@ export function History() {
             </div>
             
             {/* Decorative elements */}
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-secondary/10 rounded-full blur-3xl -z-10" />
+            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/10 rounded-full blur-3xl -z-10" />
             <div className="absolute -top-6 -left-6 w-48 h-48 bg-primary/5 rounded-full blur-3xl -z-10" />
           </motion.div>
 
@@ -43,7 +43,7 @@ export function History() {
               </h2>
               
               <div className="space-y-6">
-                <p className="text-slate-600 text-lg leading-relaxed">
+                <p className="text-neutral-600 text-lg leading-relaxed">
                   Desde a sua fundação, a SKL Assessoria Contábil constrói uma história de excelência, inovação e confiança. Com o passar dos anos, evoluímos constantemente, unindo tecnologia, especialização e atendimento personalizado para transformar a contabilidade em uma ferramenta estratégica de crescimento.
                 </p>
                 

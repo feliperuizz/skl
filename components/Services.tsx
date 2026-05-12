@@ -47,10 +47,10 @@ export function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
             <SectionReveal key={index} delay={index * 0.1}>
-              <div className="group h-full p-8 border border-slate-200 bg-background hover:bg-primary transition-all duration-500 rounded-2xl relative overflow-hidden cursor-pointer shadow-sm hover:shadow-2xl hover:-translate-y-2">
+              <div className="group h-full p-8 border border-neutral-200 bg-background hover:bg-primary transition-all duration-500 rounded-2xl relative overflow-hidden cursor-pointer shadow-sm hover:shadow-2xl hover:-tranneutral-y-2">
                 
                 {/* Background Favicongrande effect on hover! */}
-                <div className="absolute inset-0 z-0 opacity-0 group-hover:opacity-20 transition-all duration-700 translate-y-full group-hover:translate-y-0 bg-cover bg-no-repeat bg-bottom" 
+                <div className="absolute inset-0 z-0 opacity-0 group-hover:opacity-20 transition-all duration-700 tranneutral-y-full group-hover:tranneutral-y-0 bg-cover bg-no-repeat bg-bottom" 
                      style={{ backgroundImage: 'url("/favicongrande.png")' }}>
                 </div>
                 
@@ -60,7 +60,7 @@ export function Services() {
                 <div className="relative z-10">
                   {service.icon}
                   <h3 className="text-xl font-display font-bold mb-4 transition-colors duration-300 group-hover:text-white">{service.title}</h3>
-                  <p className="text-slate-600 group-hover:text-slate-300 transition-colors duration-300 relative z-10">
+                  <p className="text-neutral-600 group-hover:text-neutral-300 transition-colors duration-300 relative z-10">
                     {service.description}
                   </p>
                 </div>

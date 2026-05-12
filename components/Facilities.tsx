@@ -15,7 +15,7 @@ const IMAGES = [
 
 export function Facilities() {
   return (
-    <section className="py-24 bg-background border-t border-slate-200 relative">
+    <section className="py-24 bg-background border-t border-neutral-200 relative">
       <div className="container mx-auto px-6 lg:px-12">
         <SectionReveal className="mb-16">
           <div className="w-20 h-1 bg-primary mb-8" />
@@ -32,7 +32,7 @@ export function Facilities() {
             <SectionReveal 
               key={idx} 
               delay={idx * 0.1} 
-              className={`relative bg-slate-200 rounded-sm overflow-hidden group ${
+              className={`relative bg-white rounded-sm overflow-hidden group ${
                 idx === 0 ? "col-span-2 row-span-2 aspect-square" : "aspect-square"
               }`}
             >

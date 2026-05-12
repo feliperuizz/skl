@@ -19,7 +19,7 @@ export function About() {
   return (
     <section id="about" className="py-24 sm:py-32 bg-gradient-to-t from-neutral-950 via-[#4A0012] to-neutral-950 text-white relative overflow-hidden">
       {/* Premium Watermark */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-5 pointer-events-none w-full max-w-sm">
+      <div className="absolute top-1/2 left-1/2 -tranneutral-x-1/2 -tranneutral-y-1/2 opacity-5 pointer-events-none w-full max-w-sm">
         <img 
           src="./favicongrande.png" 
           alt="Watermark" 
@@ -30,7 +30,7 @@ export function About() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
           <SectionReveal className="lg:w-5/12">
-            <div className="inline-block px-4 py-1.5 bg-secondary/10 text-secondary border border-secondary/30 rounded-full text-sm font-bold mb-6 tracking-wide uppercase">
+            <div className="inline-block px-4 py-1.5 bg-primary/10 text-white border border-primary/30 rounded-full text-sm font-bold mb-6 tracking-wide uppercase">
               Trajetória de Sucesso
             </div>
             <h2 className="text-white mb-8">
@@ -49,8 +49,8 @@ export function About() {
                   <div className="flex gap-6">
                      <span className="text-6xl font-black text-white/5 leading-none mt-1">0{index + 1}</span>
                      <div>
-                       <h3 className="text-secondary uppercase mb-2">{pillar.title}</h3>
-                       <p className="text-slate-300 font-medium">{pillar.description}</p>
+                       <h3 className="text-white uppercase mb-2">{pillar.title}</h3>
+                       <p className="text-neutral-300 font-medium">{pillar.description}</p>
                      </div>
                   </div>
                 </SectionReveal>

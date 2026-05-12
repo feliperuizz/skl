@@ -55,7 +55,7 @@ export function WorkingWithUs() {
                          overflow-hidden mt-6 lg:mt-12 ml-10 lg:ml-20"
             >
               {/* iPhone Notch */}
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-7 bg-neutral-900 rounded-b-2xl z-20"></div>
+              <div className="absolute top-0 left-1/2 -tranneutral-x-1/2 w-32 h-7 bg-neutral-900 rounded-b-2xl z-20"></div>
               
               {/* Screen Image (SKL Office) */}
               <img 
@@ -119,7 +119,7 @@ export function WorkingWithUs() {
                 className="inline-flex items-center gap-2 text-primary font-bold text-lg hover:text-[#900018] group transition-colors"
               >
                 Clique aqui e fale conosco
-                <ArrowUpRight strokeWidth={3} className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                <ArrowUpRight strokeWidth={3} className="w-5 h-5 group-hover:tranneutral-x-1 group-hover:-tranneutral-y-1 transition-transform" />
               </a>
             </motion.div>
 
