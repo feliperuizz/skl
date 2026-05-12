@@ -41,7 +41,7 @@ export function Stats() {
               <div className="text-4xl sm:text-5xl lg:text-6xl font-black text-primary leading-none mb-3">
                 {stat.number}
               </div>
-              <div className="text-base sm:text-lg font-bold text-slate-800 mt-2 leading-tight uppercase tracking-wider">
+              <div className="text-base sm:text-lg font-bold text-neutral-800 mt-2 leading-tight uppercase tracking-wider">
                 {stat.label}
               </div>
               <div className="text-xs sm:text-sm text-slate-500 mt-1 font-medium">

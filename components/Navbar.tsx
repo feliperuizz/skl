@@ -127,10 +127,10 @@ export function Navbar() {
           </div>
 
           <button
-            className="xl:hidden p-2 text-slate-800 rounded-md hover:bg-slate-100 transition-colors"
+            className="xl:hidden p-2 text-neutral-800 rounded-md hover:bg-slate-100 transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
-            {mobileMenuOpen ? <X className="w-7 h-7 text-slate-800" /> : <Menu className="w-7 h-7 text-slate-800" />}
+            {mobileMenuOpen ? <X className="w-7 h-7 text-neutral-800" /> : <Menu className="w-7 h-7 text-neutral-800" />}
           </button>
         </div>
       </div>

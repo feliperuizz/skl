@@ -56,7 +56,7 @@ export function Segments() {
              <img src="./logo_standard.png" alt="SKL" className="h-10 sm:h-12 w-auto object-contain" />
           </div>
           <h2 className="mb-4">
-            Oferecemos <span className="font-extrabold text-slate-800">soluções personalizadas</span>
+            Oferecemos <span className="font-extrabold text-neutral-800">soluções personalizadas</span>
             <br className="hidden sm:block" />
             para diversos setores
           </h2>

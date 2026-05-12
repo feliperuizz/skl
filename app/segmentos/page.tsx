@@ -74,15 +74,15 @@ export default function Segmentos() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 flex flex-col justify-center gap-3 hover:border-primary/50 transition-colors">
                   <Factory className="w-10 h-10 text-primary" />
-                  <span className="font-bold text-slate-800">Indústrias de Transformação</span>
+                  <span className="font-bold text-neutral-800">Indústrias de Transformação</span>
                 </div>
                 <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 flex flex-col justify-center gap-3 hover:border-primary/50 transition-colors">
                   <ShoppingCart className="w-10 h-10 text-primary" />
-                  <span className="font-bold text-slate-800">Atacado & Distribuição</span>
+                  <span className="font-bold text-neutral-800">Atacado & Distribuição</span>
                 </div>
                 <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 flex flex-col justify-center gap-3 hover:border-primary/50 transition-colors col-span-2">
                   <Store className="w-10 h-10 text-primary" />
-                  <span className="font-bold text-slate-800">Varejo & Franquias</span>
+                  <span className="font-bold text-neutral-800">Varejo & Franquias</span>
                 </div>
               </div>
             </motion.div>
@@ -95,7 +95,7 @@ export default function Segmentos() {
               variants={fadeInUp}
             >
               <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">Complexidade Resolvida</h2>
-              <h3 className="text-3xl lg:text-5xl font-black text-slate-900 mb-6">
+              <h3 className="text-3xl lg:text-5xl font-black text-neutral-900 mb-6">
                 Comércio & <span className="text-primary italic font-serif">Indústrias</span>
               </h3>
               <div className="w-16 h-1.5 bg-secondary mb-8"></div>
@@ -186,7 +186,7 @@ export default function Segmentos() {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <h2 className="text-3xl lg:text-5xl font-black text-slate-900 mb-6">
+              <h2 className="text-3xl lg:text-5xl font-black text-neutral-900 mb-6">
                 Outros Segmentos & <br/>
                 <span className="text-primary italic font-serif">Casos Específicos</span>
               </h2>
@@ -218,7 +218,7 @@ export default function Segmentos() {
                       <item.icon className="w-6 h-6" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-slate-900">{item.title}</h4>
+                      <h4 className="font-bold text-neutral-900">{item.title}</h4>
                       <p className="text-sm text-slate-500 mt-1">{item.desc}</p>
                     </div>
                   </div>
@@ -234,7 +234,7 @@ export default function Segmentos() {
             >
               <div className="aspect-[4/5] rounded-3xl overflow-hidden relative shadow-2xl">
                 <img src="/agronegocio.png" alt="Especialistas em Nichos Específicos" className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent opacity-90"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/40 to-transparent opacity-90"></div>
                 <div className="absolute bottom-8 left-8 right-8 text-white">
                   <div className="text-3xl font-black mb-2">Não encontrou seu setor?</div>
                   <p className="text-white/80">Temos capacidade técnica para avaliar e assumir a contabilidade de operações de qualquer complexidade.</p>
@@ -246,7 +246,7 @@ export default function Segmentos() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-white text-slate-900 text-center border-t border-slate-200">
+      <section className="py-20 bg-white text-neutral-900 text-center border-t border-slate-200">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-black mb-6 text-primary">Traga a realidade da sua empresa para nós</h2>
           <p className="text-slate-600 text-lg mb-10">

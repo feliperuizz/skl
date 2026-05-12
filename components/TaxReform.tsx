@@ -13,7 +13,7 @@ export function TaxReform() {
   ];
 
   return (
-    <section className="py-20 bg-slate-900 text-white relative overflow-hidden" id="tax-reform">
+    <section className="py-20 bg-neutral-950 text-white relative overflow-hidden" id="tax-reform">
       {/* Decorative patterns */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
@@ -29,7 +29,7 @@ export function TaxReform() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-slate-800">
+            <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-neutral-800">
               <img 
                 src="./tax_reform.png" 
                 alt="Reforma Tributária SKL" 

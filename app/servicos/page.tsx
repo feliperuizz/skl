@@ -69,7 +69,7 @@ export default function Servicos() {
               <div className="w-16 h-16 bg-primary/10 text-primary rounded-2xl flex items-center justify-center mb-6">
                 <Briefcase className="w-8 h-8" />
               </div>
-              <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-6">
+              <h2 className="text-3xl lg:text-4xl font-black text-neutral-900 mb-6">
                 Contabilidade <span className="text-primary italic font-serif">Completa</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
@@ -112,7 +112,7 @@ export default function Servicos() {
               <div className="w-16 h-16 bg-secondary/10 text-secondary rounded-2xl flex items-center justify-center mb-6">
                 <Calculator className="w-8 h-8" />
               </div>
-              <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-6">
+              <h2 className="text-3xl lg:text-4xl font-black text-neutral-900 mb-6">
                 Assessoria <span className="text-secondary italic font-serif">Fiscal e Tributária</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
@@ -135,7 +135,7 @@ export default function Servicos() {
               <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-slate-200 relative p-8 flex items-center justify-center">
                 <div className="absolute inset-0 bg-[url('https://sklcontabil.com.br/wordpress/wp-content/uploads/2020/04/financeiro.jpg')] bg-cover bg-center opacity-40"></div>
                 <div className="absolute inset-0 bg-white/40"></div>
-                <div className="relative z-10 text-slate-900 text-center">
+                <div className="relative z-10 text-neutral-900 text-center">
                   <div className="text-6xl font-black mb-2">100%</div>
                   <div className="text-xl font-bold uppercase tracking-widest text-primary">Compliance Fiscal</div>
                 </div>
@@ -158,7 +158,7 @@ export default function Servicos() {
             <div className="w-16 h-16 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mb-6 mx-auto">
               <Users className="w-8 h-8" />
             </div>
-            <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-6">
+            <h2 className="text-3xl lg:text-4xl font-black text-neutral-900 mb-6">
               Gestão de <span className="text-blue-600 italic font-serif">Departamento Pessoal</span>
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed">
@@ -183,7 +183,7 @@ export default function Servicos() {
                 <div className="w-10 h-10 bg-white shadow-sm rounded-lg flex items-center justify-center mb-4 text-blue-600 font-black text-xl">
                   0{i+1}
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
+                <h3 className="text-xl font-bold text-neutral-900 mb-3">{item.title}</h3>
                 <p className="text-slate-600">{item.desc}</p>
               </motion.div>
             ))}
@@ -192,7 +192,7 @@ export default function Servicos() {
       </section>
 
       {/* 4. Reforma Tributária */}
-      <section id="reforma-tributaria" className="py-24 bg-slate-900 text-white scroll-mt-24 relative overflow-hidden">
+      <section id="reforma-tributaria" className="py-24 bg-neutral-950 text-white scroll-mt-24 relative overflow-hidden">
         <div className="absolute right-0 bottom-0 w-1/2 h-[200%] bg-primary/5 -skew-x-12 translate-x-1/4"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
           <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -203,7 +203,7 @@ export default function Servicos() {
               viewport={{ once: true }}
             >
               <div className="w-full aspect-square bg-gradient-to-tr from-primary to-secondary rounded-full p-1 shadow-[0_0_80px_rgba(181,151,32,0.3)]">
-                <div className="w-full h-full bg-slate-900 rounded-full flex flex-col items-center justify-center p-8 text-center border-4 border-slate-900">
+                <div className="w-full h-full bg-neutral-900 rounded-full flex flex-col items-center justify-center p-8 text-center border-4 border-neutral-900">
                   <Scale className="w-16 h-16 text-primary mb-4" />
                   <h3 className="text-2xl font-black mb-2 text-white">Transição Segura</h3>
                   <p className="text-slate-400 text-sm">Preparação completa para as novas regras de IVA Dual (CBS e IBS).</p>
@@ -244,7 +244,7 @@ export default function Servicos() {
                 <div className="p-3 bg-green-100 text-green-700 rounded-xl">
                   <FileText className="w-8 h-8" />
                 </div>
-                <h2 className="text-3xl font-black text-slate-900">IRPF Especializado</h2>
+                <h2 className="text-3xl font-black text-neutral-900">IRPF Especializado</h2>
               </div>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
                 Cuidamos da Declaração de Imposto de Renda Pessoa Física de sócios, diretores e do público em geral. Uma análise detalhada para evitar malha fina, justificar variação patrimonial e garantir a restituição correta.
@@ -301,7 +301,7 @@ export default function Servicos() {
                 <div className="space-y-4">
                   <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 aspect-square flex flex-col items-center justify-center text-center">
                     <Building className="w-10 h-10 text-primary mb-3" />
-                    <span className="font-bold text-slate-800">Proteção Patrimonial</span>
+                    <span className="font-bold text-neutral-800">Proteção Patrimonial</span>
                   </div>
                   <div className="bg-primary p-6 rounded-2xl shadow-sm aspect-square flex flex-col items-center justify-center text-center">
                     <span className="text-4xl font-black text-white mb-2">ITCMD</span>
@@ -314,8 +314,8 @@ export default function Servicos() {
                     <span className="text-sm font-medium text-white/80">Familiar e Empresarial</span>
                   </div>
                   <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 aspect-square flex flex-col items-center justify-center text-center">
-                    <Scale className="w-10 h-10 text-slate-800 mb-3" />
-                    <span className="font-bold text-slate-800">Blindagem Legal</span>
+                    <Scale className="w-10 h-10 text-neutral-800 mb-3" />
+                    <span className="font-bold text-neutral-800">Blindagem Legal</span>
                   </div>
                 </div>
               </div>
@@ -327,7 +327,7 @@ export default function Servicos() {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <h2 className="text-3xl lg:text-5xl font-black text-slate-900 mb-6">
+              <h2 className="text-3xl lg:text-5xl font-black text-neutral-900 mb-6">
                 Holding & <br/> <span className="text-secondary italic font-serif">Planejamento Patrimonial</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-8">
@@ -345,9 +345,9 @@ export default function Servicos() {
       <section id="hub-solucoes" className="py-24 bg-white border-t border-slate-100 scroll-mt-24 text-center">
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <div className="w-24 h-24 bg-slate-50 rounded-full flex items-center justify-center mx-auto mb-8 border border-slate-200">
-            <Network className="w-10 h-10 text-slate-800" />
+            <Network className="w-10 h-10 text-neutral-800" />
           </div>
-          <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-6">
+          <h2 className="text-3xl lg:text-4xl font-black text-neutral-900 mb-6">
             HUB de <span className="text-primary italic font-serif">Soluções Completas</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed mb-12">
@@ -356,7 +356,7 @@ export default function Servicos() {
           
           <div className="flex flex-wrap justify-center gap-4">
             {["Certificação Digital", "Registro de Marcas", "Abertura de Empresas", "BPO Financeiro", "Seguros Empresariais", "Sistemas de Gestão"].map((item, i) => (
-              <span key={i} className="px-6 py-3 bg-slate-50 border border-slate-200 rounded-full text-slate-800 font-bold hover:border-primary hover:text-primary transition-colors cursor-default">
+              <span key={i} className="px-6 py-3 bg-slate-50 border border-slate-200 rounded-full text-neutral-800 font-bold hover:border-primary hover:text-primary transition-colors cursor-default">
                 {item}
               </span>
             ))}

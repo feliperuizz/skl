@@ -82,7 +82,7 @@ export default function Institucional() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">Nossa História</h2>
-              <h3 className="text-4xl lg:text-5xl font-black text-slate-900 mb-6 leading-tight">
+              <h3 className="text-4xl lg:text-5xl font-black text-neutral-900 mb-6 leading-tight">
                 Mais de 28 anos <br/> <span className="text-primary italic font-serif">construindo confiança.</span>
               </h3>
               <div className="w-16 h-1.5 bg-secondary mb-8"></div>
@@ -117,7 +117,7 @@ export default function Institucional() {
             >
               <div className="aspect-[4/5] rounded-tl-[80px] rounded-br-[80px] overflow-hidden relative shadow-2xl">
                 <img src="/equipe-real.jpg" alt="História SKL" className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-slate-900/10"></div>
+                <div className="absolute inset-0 bg-neutral-900/10"></div>
               </div>
               <div className="absolute -bottom-8 -left-8 w-48 h-48 bg-secondary/10 rounded-full blur-3xl -z-10"></div>
             </motion.div>
@@ -130,7 +130,7 @@ export default function Institucional() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-20">
             <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">DNA Corporativo</h2>
-            <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-slate-900">
+            <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900">
               Pilares que <span className="text-primary italic font-serif">sustentam</span> nosso trabalho
             </h3>
           </div>
@@ -167,7 +167,7 @@ export default function Institucional() {
                 <div className="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mb-8 border border-slate-100 relative z-10">
                   <item.icon className="w-8 h-8 text-secondary" />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-4 relative z-10">{item.title}</h3>
+                <h3 className="text-2xl font-bold text-neutral-900 mb-4 relative z-10">{item.title}</h3>
                 <p className="text-slate-600 leading-relaxed relative z-10">{item.desc}</p>
               </motion.div>
             ))}
@@ -217,7 +217,7 @@ export default function Institucional() {
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div>
               <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">Infraestrutura</h2>
-              <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-slate-900">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900">
                 Nossa <span className="text-primary italic font-serif">Estrutura</span>
               </h3>
             </div>
@@ -244,7 +244,7 @@ export default function Institucional() {
                   fill 
                   className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out" 
                 />
-                <div className="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/20 transition-colors duration-500" />
+                <div className="absolute inset-0 bg-neutral-900/0 group-hover:bg-neutral-900/20 transition-colors duration-500" />
               </motion.div>
             ))}
           </div>
@@ -256,7 +256,7 @@ export default function Institucional() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
             <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">Vanguarda Digital</h2>
-            <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-slate-900">
+            <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900">
               Sistemas & <span className="text-primary italic font-serif">Tecnologia</span>
             </h3>
           </div>
@@ -290,7 +290,7 @@ export default function Institucional() {
                 <div className="w-14 h-14 bg-primary text-white flex items-center justify-center mb-6">
                   <tech.icon className="w-6 h-6" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4">{tech.title}</h3>
+                <h3 className="text-xl font-bold text-neutral-900 mb-4">{tech.title}</h3>
                 <p className="text-slate-600 leading-relaxed mt-auto">{tech.desc}</p>
               </motion.div>
             ))}
@@ -317,7 +317,7 @@ export default function Institucional() {
             
             <div className="lg:w-1/2 order-1 lg:order-2">
               <h2 className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">Capital Humano</h2>
-              <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 mb-6 leading-tight">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900 mb-6 leading-tight">
                 Intelecto e <br/>
                 <span className="text-secondary italic font-serif">Alta Performance</span>
               </h3>
@@ -336,7 +336,7 @@ export default function Institucional() {
       </section>
 
       {/* Certificações / CRC / Compliance - Layout Customizado */}
-      <section id="certificacoes" className="py-24 bg-white text-slate-900 scroll-mt-24">
+      <section id="certificacoes" className="py-24 bg-white text-neutral-900 scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <Award className="w-12 h-12 text-primary mx-auto mb-6" />
           <h2 className="text-3xl md:text-4xl font-black mb-16">
@@ -360,7 +360,7 @@ export default function Institucional() {
                     className="max-h-full max-w-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-500"
                   />
                 </div>
-                <h4 className="font-bold text-sm tracking-wider uppercase mb-2 text-slate-900">{cert.title}</h4>
+                <h4 className="font-bold text-sm tracking-wider uppercase mb-2 text-neutral-900">{cert.title}</h4>
                 <p className="text-slate-600 text-sm">{cert.desc}</p>
               </motion.div>
             ))}

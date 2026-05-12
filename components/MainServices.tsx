@@ -33,7 +33,7 @@ export function MainServices() {
     <section className="py-24 bg-white" id="main-services">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <SectionReveal className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 leading-tight mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900 leading-tight mb-4">
             Nossos Serviços <span className="text-primary italic">Especializados</span>
           </h2>
           <p className="text-slate-600 text-lg max-w-2xl mx-auto">
@@ -77,7 +77,7 @@ export function MainServices() {
         {/* Other Services Section */}
         <SectionReveal className="bg-slate-50 rounded-[2rem] p-8 md:p-12 border border-slate-100 flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
-            <h3 className="text-2xl font-bold text-slate-900 mb-2">Conheça outros serviços:</h3>
+            <h3 className="text-2xl font-bold text-neutral-900 mb-2">Conheça outros serviços:</h3>
             <p className="text-slate-500">Soluções complementares para sua segurança patrimonial e empresarial.</p>
           </div>
           <div className="flex flex-wrap gap-3 justify-center md:justify-end">

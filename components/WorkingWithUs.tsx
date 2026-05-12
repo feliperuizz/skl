@@ -51,11 +51,11 @@ export function WorkingWithUs() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="relative z-10 
                          w-[280px] sm:w-[320px] lg:w-[340px] aspect-[9/19.5] 
-                         bg-black rounded-[3rem] shadow-2xl border-[12px] border-slate-900 
+                         bg-black rounded-[3rem] shadow-2xl border-[12px] border-neutral-900 
                          overflow-hidden mt-6 lg:mt-12 ml-10 lg:ml-20"
             >
               {/* iPhone Notch */}
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-7 bg-slate-900 rounded-b-2xl z-20"></div>
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-7 bg-neutral-900 rounded-b-2xl z-20"></div>
               
               {/* Screen Image (SKL Office) */}
               <img 

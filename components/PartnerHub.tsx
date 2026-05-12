@@ -23,7 +23,7 @@ export function PartnerHub() {
   ];
 
   return (
-    <section className="py-24 bg-white text-slate-900 relative overflow-hidden">
+    <section className="py-24 bg-white text-neutral-900 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[120px] -z-0" />
       <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-secondary/5 rounded-full blur-[100px] -z-0" />
@@ -70,7 +70,7 @@ export function PartnerHub() {
                 </div>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center gap-3 mb-2">
-                    <h3 className="text-2xl font-black text-slate-900 leading-tight">{partner.name}</h3>
+                    <h3 className="text-2xl font-black text-neutral-900 leading-tight">{partner.name}</h3>
                     <div className="h-px w-8 bg-primary/30" />
                   </div>
                   <p className="text-primary font-bold text-xs uppercase tracking-widest mb-3">
@@ -81,7 +81,7 @@ export function PartnerHub() {
                   </p>
                   <a 
                     href={partner.link} 
-                    className="inline-flex items-center gap-2 text-slate-900 font-bold text-sm hover:text-primary transition-colors group/link"
+                    className="inline-flex items-center gap-2 text-neutral-900 font-bold text-sm hover:text-primary transition-colors group/link"
                   >
                     Ver detalhes do parceiro
                     <ExternalLink className="w-4 h-4 group-hover/link:translate-x-1 group-hover/link:-translate-y-1 transition-transform" />

@@ -15,7 +15,7 @@ export function WhatsAppWidget() {
           {/* Close Button (X) - Appears on Group Hover */}
           <button 
             onClick={() => setIsBubbleVisible(false)}
-            className="absolute -top-2 -right-2 bg-slate-800 text-white p-1 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-red-500"
+            className="absolute -top-2 -right-2 bg-neutral-800 text-white p-1 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-red-500"
             title="Fechar"
           >
             <X size={12} />

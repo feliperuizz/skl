@@ -41,10 +41,10 @@ export default function Contato() {
               variants={fadeInUp}
               transition={{ duration: 0.6 }}
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-full text-sm font-bold mb-6 text-slate-800 shadow-sm border border-slate-200">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-full text-sm font-bold mb-6 text-neutral-800 shadow-sm border border-slate-200">
                 <Coffee className="w-4 h-4 text-primary" /> Vamos tomar um café?
               </div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 mb-6 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-neutral-900 mb-6 leading-tight">
                 Fale com a <span className="text-primary italic font-serif">SKL</span> <br/>
                 <span className="text-secondary">sem burocracia.</span>
               </h1>
@@ -59,7 +59,7 @@ export default function Contato() {
                   </Button>
                 </a>
                 <a href="tel:+551150332810" className="inline-block">
-                  <Button className="w-full h-14 px-8 rounded-full bg-white hover:bg-slate-50 text-slate-900 border-2 border-slate-200 text-lg font-bold flex items-center justify-center gap-2">
+                  <Button className="w-full h-14 px-8 rounded-full bg-white hover:bg-slate-50 text-neutral-900 border-2 border-slate-200 text-lg font-bold flex items-center justify-center gap-2">
                     <PhoneCall className="w-5 h-5 text-secondary" /> (11) 5033-2810
                   </Button>
                 </a>
@@ -86,7 +86,7 @@ export default function Contato() {
                   </div>
                   <div>
                     <p className="text-xs font-bold text-slate-500 uppercase">E-mail</p>
-                    <p className="text-sm font-bold text-slate-900">comercial@sklcontabil.com.br</p>
+                    <p className="text-sm font-bold text-neutral-900">comercial@sklcontabil.com.br</p>
                   </div>
                 </div>
 
@@ -96,7 +96,7 @@ export default function Contato() {
                   </div>
                   <div>
                     <p className="text-xs font-bold text-slate-500 uppercase">Resposta em</p>
-                    <p className="text-sm font-bold text-slate-900">Até 10 min</p>
+                    <p className="text-sm font-bold text-neutral-900">Até 10 min</p>
                   </div>
                 </div>
               </div>
@@ -122,15 +122,15 @@ export default function Contato() {
               <div className="absolute -right-10 -top-10 w-40 h-40 bg-primary/10 rounded-full group-hover:scale-150 transition-transform duration-500 z-0" />
               
               <div className="relative z-10">
-                <div className="w-16 h-16 bg-primary text-slate-900 rounded-2xl flex items-center justify-center mb-8 rotate-3 group-hover:rotate-0 transition-transform">
+                <div className="w-16 h-16 bg-primary text-neutral-900 rounded-2xl flex items-center justify-center mb-8 rotate-3 group-hover:rotate-0 transition-transform">
                   <Rocket className="w-8 h-8" />
                 </div>
-                <h3 className="text-3xl font-black text-slate-900 mb-4">Quero <span className="italic font-serif text-primary">Abrir Empresa</span></h3>
+                <h3 className="text-3xl font-black text-neutral-900 mb-4">Quero <span className="italic font-serif text-primary">Abrir Empresa</span></h3>
                 <p className="text-slate-600 text-lg mb-8 leading-relaxed">
                   Tire sua ideia do papel com a estrutura certa desde o dia zero. Cuidamos de todo o processo legal, escolha do regime tributário e emissão do seu CNPJ rápido!
                 </p>
                 <a href="https://wa.me/message/MKFR5CDMJCQHI1" target="_blank" rel="noopener noreferrer">
-                  <Button className="w-full sm:w-auto rounded-xl bg-slate-900 hover:bg-primary hover:text-white h-12 px-8 font-bold transition-colors">
+                  <Button className="w-full sm:w-auto rounded-xl bg-neutral-900 hover:bg-primary hover:text-white h-12 px-8 font-bold transition-colors">
                     Iniciar Abertura
                   </Button>
                 </a>
@@ -173,7 +173,7 @@ export default function Contato() {
       <section id="localizacao" className="py-20 bg-white border-t border-slate-200 scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-black text-neutral-900 mb-4">
               Nossa <span className="text-primary italic font-serif">Localização</span>
             </h2>
             <p className="text-slate-600 text-lg max-w-xl mx-auto">
@@ -188,7 +188,7 @@ export default function Contato() {
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-slate-900 text-lg mb-1">Endereço</h4>
+                  <h4 className="font-bold text-neutral-900 text-lg mb-1">Endereço</h4>
                   <p className="text-slate-600 leading-relaxed">
                     Rua Gastão da Cunha, 265 <br />
                     Vila Paulista, São Paulo - SP <br />
@@ -202,7 +202,7 @@ export default function Contato() {
                   <Clock className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-slate-900 text-lg mb-1">Horário de Atendimento</h4>
+                  <h4 className="font-bold text-neutral-900 text-lg mb-1">Horário de Atendimento</h4>
                   <p className="text-slate-600 leading-relaxed">
                     Segunda a Sexta <br />
                     08:30 às 12:00 e 13:00 às 17:30

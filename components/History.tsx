@@ -23,7 +23,7 @@ export function History() {
                 alt="Equipe SKL Assessoria Contábil" 
                 className="w-full h-[500px] object-cover object-center"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/40 via-transparent to-transparent" />
             </div>
             
             {/* Decorative elements */}
@@ -37,7 +37,7 @@ export function History() {
               <div className="inline-block px-4 py-1.5 bg-primary/10 text-primary rounded-full text-sm font-bold mb-6 tracking-wide uppercase">
                 Nossa Trajetória
               </div>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 leading-tight mb-8">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900 leading-tight mb-8">
                 Conheça a nossa história: <br />
                 <span className="text-primary italic font-serif">Há mais de 28 anos</span> impulsionando empresas com estratégia, segurança e resultados!
               </h2>
@@ -51,7 +51,7 @@ export function History() {
                   <motion.button
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="bg-slate-900 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-primary transition-colors duration-300 flex items-center gap-3"
+                    className="bg-neutral-900 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-primary transition-colors duration-300 flex items-center gap-3"
                   >
                     Falar com um especialista
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

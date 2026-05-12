@@ -83,7 +83,7 @@ export default function AreaRestrita() {
                 </div>
                 
                 <div className="flex-grow">
-                  <h3 className={`text-2xl font-bold mb-2 ${item.primary ? "text-white" : "text-slate-900"}`}>
+                  <h3 className={`text-2xl font-bold mb-2 ${item.primary ? "text-white" : "text-neutral-900"}`}>
                     {item.title}
                   </h3>
                   <p className={`font-medium text-sm sm:text-base leading-relaxed ${item.primary ? "text-white/80" : "text-slate-500"}`}>

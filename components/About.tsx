@@ -17,7 +17,7 @@ export function About() {
   ];
 
   return (
-    <section id="about" className="py-24 sm:py-32 bg-gradient-to-t from-slate-950 via-[#4A0012] to-slate-950 text-white relative overflow-hidden">
+    <section id="about" className="py-24 sm:py-32 bg-gradient-to-t from-neutral-950 via-[#4A0012] to-neutral-950 text-white relative overflow-hidden">
       {/* Premium Watermark */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-5 pointer-events-none w-full max-w-sm">
         <img 

@@ -59,7 +59,7 @@ export function Pillars() {
           <div className="inline-block px-4 py-1 mb-6 rounded-full border border-primary/20 bg-primary/5">
              <span className="text-primary text-xs font-bold uppercase tracking-widest">Excelência Comprovada</span>
           </div>
-          <h2 className="text-slate-900 mb-4">
+          <h2 className="text-neutral-900 mb-4">
             Por Que Escolher a <br className="hidden sm:block"/> <span className="text-primary italic">SKL</span>?
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto font-medium">
@@ -84,10 +84,10 @@ export function Pillars() {
               <div className="w-14 h-14 sm:w-16 sm:h-16 bg-slate-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300 shadow-sm">
                 <pilar.icon className="w-7 h-7 sm:w-8 sm:h-8 text-primary group-hover:text-white transition-colors" />
               </div>
-              <h3 className="text-slate-900 mb-3">
+              <h3 className="text-neutral-900 mb-3">
                 {pilar.title}
               </h3>
-              <p className="text-slate-600 group-hover:text-slate-800 transition-colors">
+              <p className="text-slate-600 group-hover:text-neutral-800 transition-colors">
                 {pilar.desc}
               </p>
             </motion.div>
