@@ -31,7 +31,7 @@ export default function Home() {
       <MainServices />
       <PartnerHub />
       <TaxReform />
-      
+
       <Ecosystem />
       <Segments />
       
