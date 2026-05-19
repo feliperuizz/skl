@@ -45,7 +45,7 @@ export default function Contato() {
                 <Coffee className="w-4 h-4 text-primary" /> Vamos tomar um café?
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 mb-6 leading-tight">
-                Fale com a <span className="text-primary italic font-serif">SKL</span> <br />
+                Fale com a <span className="text-primary">SKL</span> <br />
                 <span className="text-secondary">sem burocracia.</span>
               </h1>
               <p className="text-slate-600 text-lg md:text-xl font-medium max-w-lg mb-8 leading-relaxed">
@@ -125,7 +125,7 @@ export default function Contato() {
                 <div className="w-16 h-16 bg-primary text-slate-900 rounded-2xl flex items-center justify-center mb-8 rotate-3 group-hover:rotate-0 transition-transform">
                   <Rocket className="w-8 h-8" />
                 </div>
-                <h3 className="text-3xl font-black text-slate-900 mb-4">Quero <span className="italic font-serif text-primary">Abrir Empresa</span></h3>
+                <h3 className="text-3xl font-black text-slate-900 mb-4">Quero <span className="text-primary">Abrir Empresa</span></h3>
                 <p className="text-slate-600 text-lg mb-8 leading-relaxed">
                   Tire sua ideia do papel com a estrutura certa desde o dia zero. Cuidamos de todo o processo legal, escolha do regime tributário e emissão do seu CNPJ rápido!
                 </p>
@@ -153,7 +153,7 @@ export default function Contato() {
                 <div className="w-16 h-16 bg-secondary text-white rounded-2xl flex items-center justify-center mb-8 -rotate-3 group-hover:rotate-0 transition-transform">
                   <ArrowRightLeft className="w-8 h-8" />
                 </div>
-                <h3 className="text-3xl font-black mb-4">Mudar de <span className="italic font-serif text-secondary">Contabilidade</span></h3>
+                <h3 className="text-3xl font-black mb-4">Mudar de <span className="text-secondary">Contabilidade</span></h3>
                 <p className="text-slate-300 text-lg mb-8 leading-relaxed">
                   Insatisfeito com seu contador atual? A transição para a SKL é 100% digital, sem atritos e sem interrupções na sua rotina. Nós fazemos todo o trabalho chato por você.
                 </p>
@@ -174,7 +174,7 @@ export default function Contato() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-4">
-              Nossa <span className="text-primary italic font-serif">Localização</span>
+              Nossa <span className="text-primary">Localização</span>
             </h2>
             <p className="text-slate-600 text-lg max-w-xl mx-auto">
               Venha tomar um café conosco ou agende uma reunião presencial em nosso escritório.

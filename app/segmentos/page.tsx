@@ -51,7 +51,7 @@ export default function Segmentos() {
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-white mb-6 leading-tight">
               Dominamos a <br className="hidden md:block"/>
-              <span className="text-primary italic font-serif">Linguagem do seu Negócio</span>
+              <span className="text-primary">Linguagem do seu Negócio</span>
             </h1>
             <p className="text-white/80 text-lg md:text-xl font-medium max-w-2xl mx-auto leading-relaxed">
               Cada setor possui suas próprias complexidades tributárias e trabalhistas. Nossa equipe é dividida em células de especialidade para entregar resultados precisos para a sua realidade.
@@ -96,7 +96,7 @@ export default function Segmentos() {
             >
               <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Complexidade Resolvida</h2>
               <h3 className="text-3xl lg:text-5xl font-black text-neutral-900 mb-6">
-                Comércio & <span className="text-primary italic font-serif">Indústrias</span>
+                Comércio & <span className="text-primary">Indústrias</span>
               </h3>
               <div className="w-16 h-1.5 bg-primary mb-8"></div>
               
@@ -131,7 +131,7 @@ export default function Segmentos() {
           <div className="text-center mb-16">
             <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Carga Tributária Otimizada</h2>
             <h3 className="text-3xl lg:text-5xl font-black mb-6">
-              Prestadores de <span className="text-white italic font-serif opacity-90">Serviços</span>
+              Prestadores de <span className="text-white opacity-90">Serviços</span>
             </h3>
             <p className="text-white/90 text-lg max-w-2xl mx-auto">
               Seu maior custo é a folha de pagamento e o ISS. Atuamos com inteligência para enquadrar sua empresa no melhor cenário tributário (Simples, Presumido ou Real).
@@ -188,7 +188,7 @@ export default function Segmentos() {
             >
               <h2 className="text-3xl lg:text-5xl font-black text-neutral-900 mb-6">
                 Outros Segmentos & <br/>
-                <span className="text-primary italic font-serif">Casos Específicos</span>
+                <span className="text-primary">Casos Específicos</span>
               </h2>
               <div className="w-16 h-1.5 bg-primary mb-8"></div>
               <p className="text-neutral-600 text-lg leading-relaxed mb-8">

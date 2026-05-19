@@ -60,7 +60,7 @@ export default function Institucional() {
               <div className="h-[1px] w-12 bg-primary"></div>
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-8 leading-tight">
-              Excelência <span className="text-white italic font-serif">Absoluta</span> <br/>
+              Excelência <span className="text-white">Absoluta</span> <br/>
               em Gestão Contábil
             </h1>
             <p className="text-white/70 text-lg md:text-xl font-medium max-w-2xl mx-auto leading-relaxed">
@@ -83,7 +83,7 @@ export default function Institucional() {
             >
               <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Nossa História</h2>
               <h3 className="text-4xl lg:text-5xl font-black text-neutral-900 mb-6 leading-tight">
-                Mais de 28 anos <br/> <span className="text-primary italic font-serif">construindo confiança.</span>
+                Mais de 28 anos <br/> <span className="text-primary">construindo confiança.</span>
               </h3>
               <div className="w-16 h-1.5 bg-primary mb-8"></div>
               
@@ -131,7 +131,7 @@ export default function Institucional() {
           <div className="text-center mb-20">
             <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">DNA Corporativo</h2>
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900">
-              Pilares que <span className="text-primary italic font-serif">sustentam</span> nosso trabalho
+              Pilares que <span className="text-primary">sustentam</span> nosso trabalho
             </h3>
           </div>
 
@@ -218,7 +218,7 @@ export default function Institucional() {
             <div>
               <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Infraestrutura</h2>
               <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900">
-                Nossa <span className="text-primary italic font-serif">Estrutura</span>
+                Nossa <span className="text-primary">Estrutura</span>
               </h3>
             </div>
             <p className="text-neutral-600 max-w-lg text-lg">
@@ -257,7 +257,7 @@ export default function Institucional() {
           <div className="text-center mb-16">
             <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Vanguarda Digital</h2>
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900">
-              Sistemas & <span className="text-primary italic font-serif">Tecnologia</span>
+              Sistemas & <span className="text-primary">Tecnologia</span>
             </h3>
           </div>
 
@@ -319,14 +319,14 @@ export default function Institucional() {
               <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Capital Humano</h2>
               <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900 mb-6 leading-tight">
                 Intelecto e <br/>
-                <span className="text-white italic font-serif">Alta Performance</span>
+                <span className="text-white">Alta Performance</span>
               </h3>
               <p className="text-neutral-600 text-lg leading-relaxed mb-8">
                 Nosso maior patrimônio não são as máquinas, são as mentes. A SKL conta com um corpo técnico formado por contadores seniores, especialistas tributários, auditores e analistas em constante atualização.
               </p>
               
               <div className="bg-white p-6 border-l-4 border-primary">
-                <p className="text-neutral-700 italic font-medium">
+                <p className="text-neutral-700 font-medium">
                   "Não somos apenas processadores de guias. Somos consultores de negócios focados em otimizar a carga tributária e garantir a paz de espírito dos nossos clientes."
                 </p>
               </div>
@@ -340,7 +340,7 @@ export default function Institucional() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <Award className="w-12 h-12 text-primary mx-auto mb-6" />
           <h2 className="text-3xl md:text-4xl font-black mb-16">
-            Certificações & <span className="text-primary italic font-serif">Compliance</span>
+            Certificações & <span className="text-primary">Compliance</span>
           </h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">

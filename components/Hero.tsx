@@ -43,7 +43,7 @@ export function Hero() {
           >
             Excelência, transparência e  <br className="hidden sm:block" />
             crescimento para o  <br className="hidden sm:block" />
-            <span className="text-primary italic">seu negócio.</span>
+            <span className="text-primary">seu negócio.</span>
           </motion.h1>
 
           <motion.p

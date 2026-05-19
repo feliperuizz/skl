@@ -8,7 +8,7 @@ export function QuickAccess() {
   const links = [
     { name: "e-CAC", image: "./ecac.png", url: "https://cav.receita.fazenda.gov.br/" },
     { name: "NF-e", image: "./nfeelogo.jpg", url: "http://www.nfe.fazenda.gov.br/" },
-    { name: "Receita Federal", image: "./rflogo.jpg", url: "https://www.gov.br/receitafederal/" },
+    { name: "Receita Federal", image: "./rfcerta.jpg", url: "https://www.gov.br/receitafederal/" },
     { name: "Previdência", image: "./previdencialogo.png", url: "https://www.gov.br/previdência/" },
     { name: "NF Paulistana", image: "./notafiscalpaulistanalogo.jfif", url: "https://nfe.prefeitura.sp.gov.br/" },
     { name: "SEFAZ-SP", image: "./sefazsplogo.png", url: "https://portal.fazenda.sp.gov.br/" },

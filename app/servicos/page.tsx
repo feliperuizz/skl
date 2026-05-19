@@ -46,7 +46,7 @@ export default function Servicos() {
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-white mb-6 leading-tight">
               Assessoria Especializada <br className="hidden md:block" />
-              <span className="text-primary italic font-serif">Para Cada Fase do Seu Negócio</span>
+              <span className="text-primary">Para Cada Fase do Seu Negócio</span>
             </h1>
             <p className="text-slate-300 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
               Mais do que cumprir obrigações fiscais, entregamos inteligência de negócios. Explore nosso portfólio completo de serviços desenvolvidos para blindar e alavancar o seu patrimônio.
@@ -70,7 +70,7 @@ export default function Servicos() {
                 <Briefcase className="w-8 h-8" />
               </div>
               <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-6">
-                Contabilidade <span className="text-primary italic font-serif">Completa</span>
+                Contabilidade <span className="text-primary">Completa</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
                 Uma gestão contábil impecável é a base de qualquer empresa de sucesso. Cuidamos de toda a estruturação e escrituração contábil da sua empresa seguindo os mais rigorosos padrões normativos (IFRS).
@@ -113,7 +113,7 @@ export default function Servicos() {
                 <Calculator className="w-8 h-8" />
               </div>
               <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-6">
-                Assessoria <span className="text-secondary italic font-serif">Fiscal e Tributária</span>
+                Assessoria <span className="text-secondary">Fiscal e Tributária</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
                 No complexo cenário tributário brasileiro, pagar impostos corretamente e de forma otimizada é uma vantagem competitiva. Realizamos o planejamento tributário contínuo para garantir a menor carga de impostos legalmente possível.
@@ -159,7 +159,7 @@ export default function Servicos() {
               <Users className="w-8 h-8" />
             </div>
             <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-6">
-              Gestão de <span className="text-blue-600 italic font-serif">Departamento Pessoal</span>
+              Gestão de <span className="text-blue-600">Departamento Pessoal</span>
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed">
               Elimine passivos trabalhistas. Nossa equipe de especialistas em DP garante o cumprimento impecável das legislações trabalhistas (CLT) e previdenciárias da sua equipe.
@@ -219,7 +219,7 @@ export default function Servicos() {
             >
               <h2 className="text-3xl lg:text-5xl font-black mb-6">
                 Consultoria em <br />
-                <span className="text-primary italic font-serif">Reforma Tributária</span>
+                <span className="text-primary">Reforma Tributária</span>
               </h2>
               <div className="w-20 h-1 bg-secondary mb-8"></div>
               <p className="text-slate-300 text-lg leading-relaxed mb-8">
@@ -269,7 +269,7 @@ export default function Servicos() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10 text-center">
           <Lightbulb className="w-16 h-16 text-primary mx-auto mb-6" />
           <h2 className="text-3xl lg:text-5xl font-black mb-6">
-            Consultoria & <span className="text-primary italic font-serif">Treinamentos</span>
+            Consultoria & <span className="text-primary">Treinamentos</span>
           </h2>
           <p className="text-white/80 text-lg max-w-3xl mx-auto leading-relaxed mb-12">
             Apoiamos gestores e equipes na tomada de decisões estratégicas e na padronização de processos corporativos. Transformamos dados contábeis em inteligência executiva.
@@ -328,7 +328,7 @@ export default function Servicos() {
               variants={fadeInUp}
             >
               <h2 className="text-3xl lg:text-5xl font-black text-slate-900 mb-6">
-                Holding & <br /> <span className="text-secondary italic font-serif">Planejamento Patrimonial</span>
+                Holding & <br /> <span className="text-secondary">Planejamento Patrimonial</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-8">
                 Proteja o patrimônio construído ao longo da vida e organize a sucessão familiar sem conflitos e com a máxima economia tributária. Estruturamos Holdings Familiares e Patrimoniais sob medida para o seu cenário.
@@ -348,7 +348,7 @@ export default function Servicos() {
             <Network className="w-10 h-10 text-slate-800" />
           </div>
           <h2 className="text-3xl lg:text-4xl font-black text-slate-900 mb-6">
-            HUB de <span className="text-primary italic font-serif">Soluções Completas</span>
+            HUB de <span className="text-primary">Soluções Completas</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed mb-12">
             Muito além da contabilidade, conectamos sua empresa a um ecossistema de parceiros validados em áreas críticas de gestão.

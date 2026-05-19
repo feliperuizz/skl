@@ -39,7 +39,7 @@ export function History() {
               </div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900 leading-tight mb-8">
                 Conheça a nossa história: <br />
-                <span className="text-primary italic font-serif">Há mais de 28 anos</span> impulsionando empresas com estratégia, segurança e resultados!
+                <span className="text-primary">Há mais de 28 anos</span> impulsionando empresas com estratégia, segurança e resultados!
               </h2>
               
               <div className="space-y-6">

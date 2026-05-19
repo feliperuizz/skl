@@ -8,11 +8,10 @@ import { HistoryStats } from "@/components/HistoryStats";
 import { MainServices } from "@/components/MainServices";
 import { PartnerHub } from "@/components/PartnerHub";
 import { TaxReform } from "@/components/TaxReform";
-import { Services } from "@/components/Services";
-import { Facilities } from "@/components/Facilities";
 import { Clients } from "@/components/Clients";
+import { Reviews } from "@/components/Reviews";
 import { WorkingWithUs } from "@/components/WorkingWithUs";
-import { About } from "@/components/About";
+import { HowItWorks } from "@/components/HowItWorks";
 import { CTA } from "@/components/CTA";
 import { Certifications } from "@/components/Certifications";
 import { QuickAccess } from "@/components/QuickAccess";
@@ -27,7 +26,8 @@ export default function Home() {
       
       <History />
       <Clients />
-      
+      <Reviews />
+
       <MainServices />
       <PartnerHub />
       <TaxReform />
@@ -36,10 +36,8 @@ export default function Home() {
       <Segments />
       
       <WorkingWithUs />
-      
-      <Services />
-      <About />
-      <Facilities />
+      <HowItWorks />
+
       <CTA />
       
       <Certifications />

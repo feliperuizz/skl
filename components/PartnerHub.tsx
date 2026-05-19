@@ -36,7 +36,7 @@ export function PartnerHub() {
             </span>
             <h2 className="text-3xl md:text-5xl font-black leading-tight mb-6">
               Apresentamos nosso <br />
-              <span className="text-primary italic">Ecossistema de Parcerias</span>
+              <span className="text-primary">Ecossistema de Parcerias</span>
             </h2>
             <p className="text-neutral-600 text-lg leading-relaxed">
               Para entregar uma experiência 360°, a SKL se une a empresas especialistas que complementam nossa excelência técnica.

@@ -35,7 +35,7 @@ export function About() {
             </div>
             <h2 className="text-white mb-8">
               A base forte para o <br />
-              <span className="text-primary italic">crescimento corporativo.</span>
+              <span className="text-primary">crescimento corporativo.</span>
             </h2>
             <p className="text-white/60 mb-8">
               Nossa história é pautada por levar inovação e extrema segurança técnica aos negócios de nossos clientes. Cada CNPJ que atendemos recebe nossa assinatura de qualidade inegociável.

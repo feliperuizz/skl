@@ -38,7 +38,7 @@ export function TaxReform() {
           {/* Text Container */}
           <div className="lg:w-1/2 w-full text-white">
             <SectionReveal>
-              <h2 className="text-4xl md:text-5xl font-black mb-4 tracking-tight">
+              <h2 className="text-4xl md:text-5xl font-black mb-4 tracking-tight text-white">
                 Reforma Tributária
               </h2>
               <p className="text-xl md:text-2xl font-medium text-white/90 mb-10 leading-snug">
@@ -72,11 +72,11 @@ export function TaxReform() {
           </p>
 
           <motion.a
-            href="https://sklcontabil.com.br/contato-via-whatsapp/"
+            href="https://wa.me/message/MKFR5CDMJCQHI1"
             target="_blank"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-block text-white/80 hover:text-white font-bold text-sm uppercase tracking-[0.2em] underline underline-offset-8 transition-colors"
+            className="inline-block bg-white text-primary font-bold text-base px-10 py-4 rounded-full shadow-lg hover:bg-neutral-100 transition-colors"
           >
             Clique aqui para receber um diagnóstico
           </motion.a>

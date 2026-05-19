@@ -19,7 +19,7 @@ export function Footer() {
                 alt="SKL" 
                 className="h-12 w-auto mb-6 object-contain" 
               />
-              <p className="text-sm font-medium italic leading-relaxed text-white border-l-2 border-white/30 pl-4">
+              <p className="text-sm font-medium leading-relaxed text-white border-l-2 border-white/30 pl-4">
                 "Contabilizando sucessos, simplificando negócios e maximizando oportunidades."
               </p>
             </div>
@@ -41,10 +41,13 @@ export function Footer() {
               <span className="absolute -bottom-2 left-0 w-8 h-1 bg-white/40"></span>
             </h4>
             <ul className="space-y-4 text-sm">
-              <li><a href="/" className="hover:opacity-70 transition-opacity">Página Inicial</a></li>
-              <li><a href="#about" className="hover:opacity-70 transition-opacity">Metodologia</a></li>
-              <li><a href="#services" className="hover:opacity-70 transition-opacity">Serviços</a></li>
-              <li><a href="https://sklcontabil.com.br/area-restrita" className="hover:opacity-70 transition-opacity">Área Restrita</a></li>
+              <li><a href="/" className="hover:opacity-70 transition-opacity">Home</a></li>
+              <li><a href="/institucional" className="hover:opacity-70 transition-opacity">Institucional</a></li>
+              <li><a href="/servicos" className="hover:opacity-70 transition-opacity">Serviços</a></li>
+              <li><a href="/segmentos" className="hover:opacity-70 transition-opacity">Segmentos</a></li>
+              <li><a href="/contato" className="hover:opacity-70 transition-opacity">Contato</a></li>
+              <li><a href="#" className="hover:opacity-70 transition-opacity">Conteúdos</a></li>
+              <li><a href="/area-restrita" className="hover:opacity-70 transition-opacity">Área Restrita</a></li>
             </ul>
           </SectionReveal>
 
@@ -89,14 +92,35 @@ export function Footer() {
           </div>
         </SectionReveal>
 
-        {/* Footer Bottom */}
-        <div className="pt-10 border-t border-white/10 flex flex-col md:flex-row items-center justify-between text-[10px] uppercase tracking-[0.2em] font-bold">
-          <p className="text-white">© {new Date().getFullYear()} SKL Contabilidade. Todos os direitos reservados.</p>
-          <div className="mt-6 md:mt-0 flex gap-8">
-            <a href="https://wa.me/message/MKFR5CDMJCQHI1" className="text-white hover:opacity-80 transition-opacity">Atendimento via WhatsApp</a>
-            <a href="#" className="text-white hover:opacity-80 transition-opacity">Termos</a>
-            <a href="https://sitecontabil.com.br" target="_blank" className="text-white hover:opacity-80 transition-opacity">Desenvolvido por Sitecontabil</a>
+        {/* Newsletter */}
+        <div className="py-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-5">
+          <div className="shrink-0">
+            <p className="text-white font-bold text-sm">Receba Nossas Notícias</p>
+            <p className="text-white/50 text-xs mt-0.5">Novidades tributárias e contábeis no seu e-mail.</p>
           </div>
+          <form
+            onSubmit={(e) => e.preventDefault()}
+            className="flex w-full sm:w-auto gap-0 rounded-lg overflow-hidden border border-white/20 min-w-[300px]"
+          >
+            <input
+              type="email"
+              required
+              placeholder="Seu melhor e-mail"
+              className="flex-1 bg-white/10 text-white placeholder-white/40 px-4 py-3 text-sm focus:outline-none"
+            />
+            <button
+              type="submit"
+              className="bg-white text-primary font-black text-xs px-5 py-3 hover:bg-neutral-100 transition-colors tracking-widest uppercase shrink-0"
+            >
+              Enviar
+            </button>
+          </form>
+        </div>
+
+        {/* Footer Bottom */}
+        <div className="pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between text-[10px] uppercase tracking-[0.2em] font-bold">
+          <p className="text-white">© {new Date().getFullYear()} SKL Contabilidade. Todos os direitos reservados.</p>
+          <a href="https://sitecontabil.com.br" target="_blank" className="mt-4 md:mt-0 text-white hover:opacity-80 transition-opacity">Desenvolvido por Sitecontabil</a>
         </div>
       </div>
     </footer>
