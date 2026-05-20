@@ -1,260 +1,182 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { 
-  Factory, 
-  ShoppingCart, 
-  Store, 
-  Laptop, 
-  Stethoscope, 
-  Briefcase,
-  Building2,
-  Tractor,
-  HeartHandshake,
-  CheckCircle2,
-  ArrowRight,
-  Target
-} from "lucide-react";
+import { CheckCircle2, ShoppingCart, Briefcase, Stethoscope, Laptop, LayoutGrid } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Button } from "@/components/ui/button";
+
+const fadeIn = { hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0 } };
 
 export default function Segmentos() {
-  const fadeInUp = {
-    hidden: { opacity: 0, y: 30 },
-    visible: { opacity: 1, y: 0 }
-  };
-
   return (
-    <main className="min-h-screen bg-background text-foreground flex flex-col pt-[72px] lg:pt-[88px]">
+    <main className="min-h-screen bg-white text-foreground flex flex-col pt-[72px] lg:pt-[88px]">
       <Navbar />
 
-      {/* Hero Segmentos */}
-      <section className="relative py-20 lg:py-32 bg-primary overflow-hidden flex items-center justify-center text-center">
-        <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary to-primary/90 z-10" />
-          <div className="absolute inset-0 bg-[url('/industria.png')] bg-cover bg-center opacity-10" />
+      {/* ── Hero ── */}
+      <section className="relative py-24 lg:py-36 bg-white border-b border-neutral-100 overflow-hidden">
+        <div className="absolute inset-0">
+          <img src="/fotos/foto6.jpg" alt="" className="w-full h-full object-cover opacity-10" />
         </div>
-        
-        {/* Abstract Shapes */}
-        <div className="absolute top-1/4 -right-1/4 w-[800px] h-[800px] bg-primary/10 blur-[150px] rounded-full pointer-events-none z-0" />
-        <div className="absolute -bottom-1/4 -left-1/4 w-[600px] h-[600px] bg-primary/10 blur-[120px] rounded-full pointer-events-none z-0" />
-
-        <div className="max-w-4xl mx-auto px-4 relative z-20">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-          >
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary/10 border border-primary/20 rounded-full text-sm font-bold mb-6 tracking-wide text-primary uppercase">
-              <Target className="w-4 h-4" /> Especialização Setorial
-            </div>
-            <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-white mb-6 leading-tight">
-              Dominamos a <br className="hidden md:block"/>
-              <span className="text-primary">Linguagem do seu Negócio</span>
+        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-white/60" />
+        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
+          <motion.div initial="hidden" animate="visible" variants={fadeIn} transition={{ duration: 0.7 }}>
+            <span className="inline-block px-4 py-1.5 bg-primary/10 text-primary border border-primary/20 rounded-full text-xs font-bold mb-6 tracking-widest uppercase">Especialização Setorial</span>
+            <h1 className="text-4xl md:text-6xl font-black text-neutral-900 mb-6 leading-tight">
+              Nossos <span className="text-primary">Segmentos</span>
             </h1>
-            <p className="text-white/80 text-lg md:text-xl font-medium max-w-2xl mx-auto leading-relaxed">
-              Cada setor possui suas próprias complexidades tributárias e trabalhistas. Nossa equipe é dividida em células de especialidade para entregar resultados precisos para a sua realidade.
+            <p className="text-neutral-500 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+              Entendemos que cada setor possui particularidades próprias. Por isso, oferecemos uma contabilidade personalizada, alinhada às necessidades do seu negócio.
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* 1. Comércio e Indústrias */}
-      <section id="comercio-industrias" className="py-24 bg-white scroll-mt-24">
+      {/* ── Comércio e Indústrias ── */}
+      <section id="comercio-industrias" className="py-20 lg:py-28 bg-white scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="flex flex-col lg:flex-row items-center gap-16">
-            <motion.div 
-              className="lg:w-1/2 order-2 lg:order-1"
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-white p-6 rounded-2xl border border-neutral-100 flex flex-col justify-center gap-3 hover:border-primary/50 transition-colors">
-                  <Factory className="w-10 h-10 text-primary" />
-                  <span className="font-bold text-neutral-800">Indústrias de Transformação</span>
-                </div>
-                <div className="bg-white p-6 rounded-2xl border border-neutral-100 flex flex-col justify-center gap-3 hover:border-primary/50 transition-colors">
-                  <ShoppingCart className="w-10 h-10 text-primary" />
-                  <span className="font-bold text-neutral-800">Atacado & Distribuição</span>
-                </div>
-                <div className="bg-white p-6 rounded-2xl border border-neutral-100 flex flex-col justify-center gap-3 hover:border-primary/50 transition-colors col-span-2">
-                  <Store className="w-10 h-10 text-primary" />
-                  <span className="font-bold text-neutral-800">Varejo & Franquias</span>
-                </div>
+          <div className="flex flex-col lg:flex-row items-center gap-14 lg:gap-20">
+            <motion.div className="lg:w-1/2" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ duration: 0.6 }}>
+              <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6">
+                <ShoppingCart className="w-7 h-7 text-blue-600" />
               </div>
-            </motion.div>
-
-            <motion.div 
-              className="lg:w-1/2 order-1 lg:order-2"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              variants={fadeInUp}
-            >
-              <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Complexidade Resolvida</h2>
-              <h3 className="text-3xl lg:text-5xl font-black text-neutral-900 mb-6">
-                Comércio & <span className="text-primary">Indústrias</span>
-              </h3>
-              <div className="w-16 h-1.5 bg-primary mb-8"></div>
-              
-              <p className="text-neutral-600 text-lg leading-relaxed mb-8">
-                Indústrias e grandes comércios operam em um campo minado de regras fiscais. Dominamos a legislação de IPI, ICMS, Substituição Tributária (ICMS-ST) e o bloco K, garantindo que sua produção e estoque não gerem passivos milionários.
+              <h2 className="text-2xl md:text-4xl font-black text-neutral-900 mb-4">Comércio e Indústrias</h2>
+              <div className="w-12 h-1 bg-primary mb-6" />
+              <p className="text-neutral-600 text-lg leading-relaxed mb-6">
+                Atendemos empresas do comércio e da indústria com foco em controle operacional, eficiência tributária e organização financeira, garantindo mais previsibilidade e segurança na gestão.
               </p>
-              
-              <ul className="space-y-4">
+              <p className="text-neutral-700 font-bold mb-4">A contabilidade nesse segmento é essencial para:</p>
+              <ul className="space-y-3 mb-6">
                 {[
-                  "Recuperação de créditos de PIS/COFINS",
-                  "Classificação fiscal de produtos (NCM) afiada",
-                  "Gestão de custos industriais e Bloco K do SPED",
-                  "Mapeamento de incentivos fiscais estaduais"
+                  "Consultoria para controle de estoque e custos",
+                  "Consultoria para formação correta de preços",
+                  "Consultoria para gestão de margens de lucro",
+                  "Apuração de impostos (ICMS, IPI, etc.)",
+                  "Planejamento tributário por regime (Simples, Lucro Presumido, Real)",
                 ].map((item, i) => (
-                  <li key={i} className="flex items-center gap-3">
-                    <ArrowRight className="w-5 h-5 text-white shrink-0" />
+                  <li key={i} className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <span className="text-neutral-700 font-medium">{item}</span>
                   </li>
                 ))}
               </ul>
+              <p className="text-neutral-500 leading-relaxed">Oferecemos suporte estratégico para melhorar resultados, reduzir custos e manter a empresa em conformidade com as constantes exigências fiscais.</p>
+              <a href="https://wa.me/message/MKFR5CDMJCQHI1" target="_blank" rel="noopener noreferrer" className="inline-block mt-8">
+                <span className="inline-block bg-primary text-white font-bold px-8 py-4 rounded-full text-base hover:bg-red-700 transition-colors cursor-pointer shadow-sm">
+                  Falar com especialista
+                </span>
+              </a>
+            </motion.div>
+            <motion.div className="lg:w-1/2" initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
+              <div className="rounded-3xl overflow-hidden shadow-xl border border-neutral-100">
+                <img src="/fotos/foto7.jpg" alt="Comércio e Indústria" className="w-full h-[460px] object-cover" />
+              </div>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* 2. Prestadores de Serviços */}
-      <section id="prestadores-servicos" className="py-24 bg-primary text-white scroll-mt-24 relative overflow-hidden">
-        <div className="absolute right-0 top-0 w-1/2 h-full bg-[url('/prestadores.png')] bg-cover bg-center opacity-5" />
-        <div className="absolute inset-0 bg-gradient-to-l from-transparent to-primary z-0" />
-        
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
-          <div className="text-center mb-16">
-            <h2 className="text-sm font-bold text-neutral-400 tracking-widest uppercase mb-3">Carga Tributária Otimizada</h2>
-            <h3 className="text-3xl lg:text-5xl font-black mb-6">
-              Prestadores de <span className="text-white opacity-90">Serviços</span>
-            </h3>
-            <p className="text-white/90 text-lg max-w-2xl mx-auto">
-              Seu maior custo é a folha de pagamento e o ISS. Atuamos com inteligência para enquadrar sua empresa no melhor cenário tributário (Simples, Presumido ou Real).
-            </p>
+      {/* ── Prestadores de Serviços ── */}
+      <section id="prestadores-servicos" className="py-20 lg:py-28 bg-neutral-50 border-y border-neutral-100 scroll-mt-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="flex flex-col lg:flex-row-reverse items-center gap-14 lg:gap-20">
+            <motion.div className="lg:w-1/2" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ duration: 0.6 }}>
+              <div className="w-14 h-14 bg-amber-50 rounded-xl flex items-center justify-center mb-6">
+                <Briefcase className="w-7 h-7 text-amber-600" />
+              </div>
+              <h2 className="text-2xl md:text-4xl font-black text-neutral-900 mb-4">Prestadores de Serviços</h2>
+              <div className="w-12 h-1 bg-primary mb-6" />
+              <p className="text-neutral-600 text-lg leading-relaxed mb-6">
+                Para empresas de serviços, a contabilidade tem papel fundamental na redução da carga tributária e na organização financeira do negócio.
+              </p>
+              <p className="text-neutral-700 font-bold mb-4">Atuamos com foco em:</p>
+              <ul className="space-y-3 mb-6">
+                {[
+                  "Escolha do melhor regime tributário",
+                  "Redução de impostos (ISS, IRPJ, CSLL)",
+                  "Controle de faturamento",
+                  "Consultoria em organização financeira",
+                  "Planejamento para crescimento sustentável",
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                    <span className="text-neutral-700 font-medium">{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-neutral-500 leading-relaxed">Nosso objetivo é garantir mais lucro, previsibilidade e segurança para prestadores de serviços.</p>
+              <a href="https://wa.me/message/MKFR5CDMJCQHI1" target="_blank" rel="noopener noreferrer" className="inline-block mt-8">
+                <span className="inline-block bg-primary text-white font-bold px-8 py-4 rounded-full text-base hover:bg-red-700 transition-colors cursor-pointer shadow-sm">
+                  Falar com especialista
+                </span>
+              </a>
+            </motion.div>
+            <motion.div className="lg:w-1/2" initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
+              <div className="rounded-3xl overflow-hidden shadow-xl border border-neutral-100">
+                <img src="/fotos/foto8.jpg" alt="Prestadores de Serviços" className="w-full h-[460px] object-cover" />
+              </div>
+            </motion.div>
           </div>
+        </div>
+      </section>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {/* ── Outros Segmentos ── */}
+      <section className="py-20 lg:py-28 bg-white scroll-mt-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <motion.div className="text-center mb-16" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
+            <span className="inline-block px-4 py-1.5 bg-primary/10 text-primary border border-primary/20 rounded-full text-xs font-bold mb-4 tracking-widest uppercase">Outros Segmentos</span>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-neutral-900">Especialistas em diversas áreas</h2>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             {[
               {
-                icon: Laptop,
-                title: "Empresas de Tecnologia",
-                desc: "Softwares, Startups e Agências Digitais. Entendemos a dinâmica ágil do seu negócio e aplicamos incentivos voltados para inovação."
+                id: "saude", icon: Stethoscope, color: "bg-rose-50 text-rose-600",
+                title: "Profissionais da Saúde",
+                desc: "Atendemos médicos, clínicas e profissionais da área da saúde com soluções específicas para o setor, que exige atenção especial à tributação e à organização financeira.",
+                bullets: ["Planejamento tributário personalizado", "Redução de carga tributária", "Estruturação de pessoa jurídica", "Controle de receitas e despesas", "Regularidade fiscal e contábil"],
               },
               {
-                icon: Stethoscope,
-                title: "Área da Saúde",
-                desc: "Clínicas médicas, odontológicas e profissionais liberais. Aplicação de equiparação hospitalar para redução severa de impostos (IRPJ/CSLL)."
+                id: "tecnologia", icon: Laptop, color: "bg-violet-50 text-violet-600",
+                title: "Tecnologia e Negócios Digitais",
+                desc: "Atendemos empresas de tecnologia, startups e negócios digitais com soluções modernas e adaptadas à dinâmica do setor.",
+                bullets: ["Estruturação societária", "Planejamento tributário para escalabilidade", "Consultoria em controle de receitas recorrentes", "Apoio em crescimento e captação", "Consultoria para organização financeira e contábil"],
               },
               {
-                icon: Briefcase,
-                title: "Serviços B2B Corporativos",
-                desc: "Consultorias, engenharias e arquitetura. Protegemos seus contratos e otimizamos a retenção de impostos na fonte."
-              }
-            ].map((card, idx) => (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: idx * 0.1 }}
-                className="bg-white/10 border border-white/10 p-8 rounded-2xl hover:bg-white/20 transition-colors backdrop-blur-sm"
-              >
-                <div className="w-14 h-14 bg-white/10 rounded-xl flex items-center justify-center mb-6">
-                  <card.icon className="w-7 h-7 text-white" />
+                id: "demais", icon: LayoutGrid, color: "bg-emerald-50 text-emerald-600",
+                title: "Demais Segmentos",
+                desc: "A SKL também atende empresas de diversos outros setores, sempre com uma abordagem personalizada e estratégica.",
+                bullets: ["Construção civil", "E-commerce", "Representantes comerciais", "Profissionais liberais", "Pequenas e médias empresas em geral"],
+              },
+            ].map((seg, i) => (
+              <motion.div key={seg.id} id={seg.id} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ delay: i * 0.1 }}
+                className="bg-white border border-neutral-100 rounded-2xl p-8 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 scroll-mt-24">
+                <div className={`w-12 h-12 ${seg.color} rounded-xl flex items-center justify-center mb-5`}>
+                  <seg.icon className="w-6 h-6" />
                 </div>
-                <h4 className="text-xl font-bold mb-4">{card.title}</h4>
-                <p className="text-white/70 leading-relaxed">{card.desc}</p>
+                <h3 className="text-xl font-black text-neutral-900 mb-3">{seg.title}</h3>
+                <p className="text-neutral-600 text-sm leading-relaxed mb-5">{seg.desc}</p>
+                <ul className="space-y-2">
+                  {seg.bullets.map((b, j) => (
+                    <li key={j} className="flex items-start gap-2">
+                      <CheckCircle2 className="w-4 h-4 text-primary shrink-0 mt-0.5" />
+                      <span className="text-neutral-700 text-sm font-medium">{b}</span>
+                    </li>
+                  ))}
+                </ul>
               </motion.div>
             ))}
           </div>
-        </div>
-      </section>
 
-      {/* 3. Outros (Nichos Específicos) */}
-      <section id="outros" className="py-24 bg-white scroll-mt-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="flex flex-col lg:flex-row items-center gap-16">
-            <motion.div 
-              className="lg:w-1/2"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              variants={fadeInUp}
-            >
-              <h2 className="text-3xl lg:text-5xl font-black text-neutral-900 mb-6">
-                Outros Segmentos & <br/>
-                <span className="text-primary">Casos Específicos</span>
-              </h2>
-              <div className="w-16 h-1.5 bg-primary mb-8"></div>
-              <p className="text-neutral-600 text-lg leading-relaxed mb-8">
-                Nossa robustez técnica nos permite atender com segurança jurídica entidades e organizações que possuem legislações extremamente singulares e específicas.
-              </p>
-              
-              <div className="space-y-6">
-                {[
-                  {
-                    icon: HeartHandshake,
-                    title: "Terceiro Setor (ONGs e Associações)",
-                    desc: "Garantia de isenções, imunidades tributárias e prestação de contas rigorosa para captação de recursos."
-                  },
-                  {
-                    icon: Tractor,
-                    title: "Produtor Rural e Agronegócio",
-                    desc: "Livro Caixa Digital do Produtor Rural (LCDPR), ITR e planejamento sucessório de terras."
-                  },
-                  {
-                    icon: Building2,
-                    title: "Condomínios e Imobiliárias",
-                    desc: "Gestão de folha complexa, retenções de síndicos e tributação sobre aluguéis."
-                  }
-                ].map((item, i) => (
-                  <div key={i} className="flex items-start gap-4 p-5 bg-white rounded-xl shadow-sm border border-neutral-100">
-                    <div className="p-3 bg-white rounded-lg text-neutral-700">
-                      <item.icon className="w-6 h-6" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-neutral-900">{item.title}</h4>
-                      <p className="text-sm text-neutral-500 mt-1">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </motion.div>
-
-            <motion.div 
-              className="lg:w-1/2 relative"
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-            >
-              <div className="aspect-[4/5] rounded-3xl overflow-hidden relative shadow-2xl">
-                <img src="/agronegocio.png" alt="Especialistas em Nichos Específicos" className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/40 to-transparent opacity-90"></div>
-                <div className="absolute bottom-8 left-8 right-8 text-white">
-                  <div className="text-3xl font-black mb-2">Não encontrou seu setor?</div>
-                  <p className="text-white/80">Temos capacidade técnica para avaliar e assumir a contabilidade de operações de qualquer complexidade.</p>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="py-20 bg-white text-neutral-900 text-center border-t border-neutral-200">
-        <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-black mb-6 text-primary">Traga a realidade da sua empresa para nós</h2>
-          <p className="text-neutral-600 text-lg mb-10">
-            Nossos especialistas estão prontos para traçar um diagnóstico da sua operação e apresentar uma proposta de valor real.
-          </p>
-          <Button className="rounded-full bg-primary text-white hover:bg-red-700 h-14 px-10 text-lg font-bold transition-colors">
-            Agendar Reunião de Diagnóstico
-          </Button>
+          <motion.div className="bg-neutral-50 border border-neutral-100 rounded-3xl p-10 text-center" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
+            <p className="text-neutral-600 text-lg leading-relaxed max-w-3xl mx-auto mb-8">
+              Independentemente do segmento, adaptamos nossa atuação à realidade do cliente, garantindo conformidade, organização e suporte para o crescimento do negócio.
+            </p>
+            <a href="https://wa.me/message/MKFR5CDMJCQHI1" target="_blank" rel="noopener noreferrer">
+              <span className="inline-block bg-primary text-white font-bold px-10 py-4 rounded-full text-base hover:bg-red-700 transition-colors cursor-pointer shadow-sm">
+                Agendar diagnóstico gratuito
+              </span>
+            </a>
+          </motion.div>
         </div>
       </section>
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowUpRight, CheckCircle2 } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 
 const BULLETS = [
   "Dashboards com indicadores contábeis atualizados em tempo real, na palma da sua mão",
@@ -104,10 +104,14 @@ export function WorkingWithUs() {
                 href="https://wa.me/message/MKFR5CDMJCQHI1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-primary font-bold text-lg hover:text-[#900018] group transition-colors"
               >
-                Clique aqui e fale conosco
-                <ArrowUpRight strokeWidth={3} className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                <motion.span
+                  whileHover={{ scale: 1.04 }}
+                  whileTap={{ scale: 0.97 }}
+                  className="inline-block bg-primary text-white font-bold px-8 py-4 rounded-full text-base shadow-sm hover:bg-red-700 transition-colors cursor-pointer"
+                >
+                  Clique aqui e fale conosco
+                </motion.span>
               </a>
             </motion.div>
           </div>

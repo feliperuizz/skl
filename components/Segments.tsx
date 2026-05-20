@@ -89,6 +89,19 @@ export function Segments() {
             </motion.div>
           ))}
         </motion.div>
+
+        {/* CTA Button */}
+        <div className="flex justify-center mt-10">
+          <a href="/servicos">
+            <motion.span
+              whileHover={{ scale: 1.04 }}
+              whileTap={{ scale: 0.97 }}
+              className="inline-block bg-primary text-white font-bold px-8 py-4 rounded-full text-base shadow-sm hover:bg-red-700 transition-colors cursor-pointer"
+            >
+              Conhecer todos os serviços
+            </motion.span>
+          </a>
+        </div>
       </div>
     </section>
   );

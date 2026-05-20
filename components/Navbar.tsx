@@ -6,17 +6,14 @@ import { Button } from "./ui/button";
 
 const navItems = [
   { label: "Home", href: "/", submenu: null },
-  { 
-    label: "Institucional", 
-    href: "/institucional", 
+  {
+    label: "Institucional",
+    href: "/institucional",
     submenu: [
       { label: "Nossa História", href: "/institucional#historia" },
       { label: "Missão, Visão e Valores", href: "/institucional#missao-visao-valores" },
       { label: "Política de Qualidade", href: "/institucional#politica-qualidade" },
       { label: "Nossa Estrutura", href: "/institucional#estrutura" },
-      { label: "Nossos Sistemas & Tecnologia", href: "/institucional#sistemas-tecnologia" },
-      { label: "Equipe / Profissionais", href: "/institucional#equipe" },
-      { label: "Certificações / CRC / Compliance", href: "/institucional#certificacoes" }
     ]
   },
   { 
@@ -33,13 +30,15 @@ const navItems = [
       { label: "HUB de Soluções Completo", href: "/servicos#hub-solucoes" }
     ]
   },
-  { 
-    label: "Segmentos", 
-    href: "/segmentos", 
+  {
+    label: "Segmentos",
+    href: "/segmentos",
     submenu: [
       { label: "Comércio e Indústrias", href: "/segmentos#comercio-industrias" },
       { label: "Prestadores de Serviços", href: "/segmentos#prestadores-servicos" },
-      { label: "Outros", href: "/segmentos#outros" }
+      { label: "Profissionais da Saúde", href: "/segmentos#saude" },
+      { label: "Tecnologia e Negócios Digitais", href: "/segmentos#tecnologia" },
+      { label: "Demais Segmentos", href: "/segmentos#demais" },
     ]
   },
   { 

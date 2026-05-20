@@ -81,7 +81,7 @@ export function MainServices() {
             <p className="text-neutral-500">Soluções complementares para sua segurança patrimonial e empresarial.</p>
           </div>
           <a href="/servicos">
-            <span className="inline-block px-8 py-4 bg-primary text-white rounded-full text-sm font-bold shadow-sm hover:bg-red-700 transition-colors cursor-pointer whitespace-nowrap">
+            <span className="inline-block px-8 py-4 bg-primary text-white rounded-full text-base font-bold shadow-sm hover:bg-red-700 transition-colors cursor-pointer whitespace-nowrap">
               Conhecer todos os serviços
             </span>
           </a>

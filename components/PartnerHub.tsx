@@ -49,7 +49,7 @@ export function PartnerHub() {
                target="_blank"
                whileHover={{ scale: 1.05 }}
                whileTap={{ scale: 0.95 }}
-               className="bg-primary hover:bg-red-700 text-white px-10 py-5 rounded-full font-bold text-lg shadow-xl flex items-center gap-3 transition-colors"
+               className="bg-primary hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold text-base shadow-sm flex items-center gap-3 transition-colors"
              >
                Conhecer Hub Completo
                <ArrowRight className="w-5 h-5" />
