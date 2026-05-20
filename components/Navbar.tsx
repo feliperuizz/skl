@@ -51,7 +51,6 @@ const navItems = [
       { label: "Contatos e Localização", href: "/contato#localizacao" }
     ]
   },
-  { label: "Conteúdos", href: "#", submenu: null },
 ];
 
 export function Navbar() {

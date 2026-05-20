@@ -46,7 +46,6 @@ export function Footer() {
               <li><a href="/servicos" className="hover:opacity-70 transition-opacity">Serviços</a></li>
               <li><a href="/segmentos" className="hover:opacity-70 transition-opacity">Segmentos</a></li>
               <li><a href="/contato" className="hover:opacity-70 transition-opacity">Contato</a></li>
-              <li><a href="#" className="hover:opacity-70 transition-opacity">Conteúdos</a></li>
               <li><a href="/area-restrita" className="hover:opacity-70 transition-opacity">Área Restrita</a></li>
             </ul>
           </SectionReveal>
