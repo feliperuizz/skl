@@ -34,6 +34,9 @@ export function Certifications() {
   return (
     <section className="py-12 bg-white border-t border-neutral-100">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        <SectionReveal className="text-center mb-10">
+          <h2 className="text-2xl font-bold text-neutral-700">Certificações</h2>
+        </SectionReveal>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {certs.map((cert, index) => (
             <SectionReveal key={index} delay={index * 0.1} className="flex flex-col items-center">
