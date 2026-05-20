@@ -118,7 +118,7 @@ export function Footer() {
 
         {/* Footer Bottom */}
         <div className="pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between text-[10px] uppercase tracking-[0.2em] font-bold">
-          <p className="text-white">© {new Date().getFullYear()} SKL Contabilidade. Todos os direitos reservados.</p>
+          <p className="text-white text-[10px]">© {new Date().getFullYear()} SKL Contabilidade. Todos os direitos reservados.</p>
           <a href="https://sitecontabil.com.br" target="_blank" className="mt-4 md:mt-0 text-white hover:opacity-80 transition-opacity">Desenvolvido por Sitecontabil</a>
         </div>
       </div>
